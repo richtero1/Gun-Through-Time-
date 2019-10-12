@@ -30,15 +30,15 @@ public class PlayerMovement : MonoBehaviour
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
         Vector2 lookdir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookdir.y, lookdir.x) * Mathf.Rad2Deg - 0f;
+        float angle = Mathf.Atan2(lookdir.y, lookdir.x) * Mathf.Rad2Deg -0f;
         rb.rotation = angle;
     }
-
-    private void OnCollisionEnter2D(Collision2D col)
+    // Funcion para que el jugador sea matado por una bala
+    /*private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
             Destroy(target);
         }
-    }
+    }*/
 }

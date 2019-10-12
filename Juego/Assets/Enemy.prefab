@@ -154,6 +154,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 577585017761095575, guid: d6f65c228115944e3b384e7e3b07d8dd,
     type: 3}
   FirePoint: {fileID: 9079849144775607091}
+  target1: {fileID: 9079849145175542142}
 --- !u!114 &114743853517690282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,4 +168,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  target: {fileID: 0}
+  target: {fileID: 4021744342589173038, guid: f08f310d076c44b498ac4464edd2e905, type: 3}

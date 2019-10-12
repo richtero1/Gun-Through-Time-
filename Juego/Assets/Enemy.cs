@@ -10,14 +10,14 @@ public class Enemy : MonoBehaviour
     float fireRate; 
     float nextFire;
 
-    GameObject target1;
+    public GameObject enemigo;
 
     private Transform target;
 
     // Start is called before the first frame update
     void Start()
     {
-        fireRate = 2f;
+        fireRate = 8f;
         nextFire = Time.time;
     }
 
@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
-            Destroy(target1);
+            Destroy(enemigo);
         }
     }
 
