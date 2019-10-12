@@ -10,8 +10,14 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Camera cam;
 
+    public Joystick j1;
+    public Joystick j2;
+
+
     Vector2 movement;
     Vector2 mousePos;
+    Vector2 direccion;
+
 
     public GameObject target;
 
@@ -19,17 +25,21 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        
+        movement.x = j1.Horizontal;
+        movement.y = j1.Vertical;
 
+        direccion.x = j2.Horizontal;
+        direccion.y = j2.Vertical;
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        
     }
 
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
-        Vector2 lookdir = mousePos - rb.position;
+        Vector2 lookdir = direccion;
         float angle = Mathf.Atan2(lookdir.y, lookdir.x) * Mathf.Rad2Deg -0f;
         rb.rotation = angle;
     }
