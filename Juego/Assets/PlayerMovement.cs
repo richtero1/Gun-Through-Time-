@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
 
+    public GameObject target;
+
 
     // Update is called once per frame
     void Update()
@@ -30,5 +32,13 @@ public class PlayerMovement : MonoBehaviour
         Vector2 lookdir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookdir.y, lookdir.x) * Mathf.Rad2Deg - 0f;
         rb.rotation = angle;
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag.Equals("Bullet"))
+        {
+            Destroy(target);
+        }
     }
 }
