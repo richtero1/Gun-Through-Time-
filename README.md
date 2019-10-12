@@ -1,2 +1,2 @@
-# Gun-Throught-Time-
-Video juego Proyecto de ing de software
+# Gun-Through-Time-
+Video Juego Proyecto de Ing de Software
