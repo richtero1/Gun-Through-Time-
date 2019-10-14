@@ -13,19 +13,17 @@ public class PlayerMovement : MonoBehaviour
     public Joystick j1;
     public Joystick j2;
 
-
     Vector2 movement;
     Vector2 mousePos;
     Vector2 direccion;
 
+    public Transform spawnPoint;
 
     public GameObject target;
-
 
     // Update is called once per frame
     void Update()
     {
-        
         movement.x = j1.Horizontal;
         movement.y = j1.Vertical;
 
@@ -48,7 +46,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
-            Destroy(target);
+            target.transform.position = spawnPoint.position;
         }
+            
     }
 }

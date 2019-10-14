@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-
     public GameObject hitEffect;
 
     public float Speed = 2f;

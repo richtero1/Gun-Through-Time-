@@ -145,3 +145,5 @@ MonoBehaviour:
   hitEffect: {fileID: 5835995095307631688, guid: 6716ac01ff8d6463cb438fef3988f8df,
     type: 3}
   Speed: 4
+  spawnPoint: {fileID: 17924963875386959, guid: aa26fa6f320624dec841a37ee31cfaee,
+    type: 3}
