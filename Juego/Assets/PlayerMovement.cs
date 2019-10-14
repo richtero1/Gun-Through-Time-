@@ -26,9 +26,12 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = j1.Horizontal;
         movement.y = j1.Vertical;
-
-        direccion.x = j2.Horizontal;
-        direccion.y = j2.Vertical;
+        if (j2.Horizontal != 0f || j2.Vertical != 0f)
+        {
+            direccion.x = j2.Horizontal;
+            direccion.y = j2.Vertical;
+        }
+        
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         
     }

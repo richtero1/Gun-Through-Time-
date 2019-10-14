@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public GameObject hitEffect;
 
-    public float Speed = 2f;
+    public float Speed = 10f;
 
     Rigidbody2D rb;
 
