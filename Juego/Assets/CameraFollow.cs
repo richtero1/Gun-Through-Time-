@@ -18,12 +18,14 @@ public class CameraFollow : MonoBehaviour
    
     void LateUpdate()
     {
-        Vector3 temp = transform.position;
+        Vector3 temp = new Vector3(playerTransform.position.x,playerTransform.position.y,transform.position.z);
 
-        temp.x = playerTransform.position.x;
-        temp.y = playerTransform.position.y;
-
+        temp.x = Mathf.Clamp(temp.x, minp.x, maxp.x);
+        temp.y = Mathf.Clamp(temp.y, minp.y, maxp.y);
 
         transform.position = Vector3.Lerp(transform.position, temp, smoothing);
+
+
+
     }
 }
