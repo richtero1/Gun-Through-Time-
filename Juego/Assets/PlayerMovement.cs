@@ -44,11 +44,11 @@ public class PlayerMovement : MonoBehaviour
         rb.rotation = angle;
     }
     // Funcion para que el jugador sea matado por una bala
-    /*private void OnCollisionEnter2D(Collision2D col)
+    private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
             Destroy(target);
         }
-    }*/
+    }
 }
