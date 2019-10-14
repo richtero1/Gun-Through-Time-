@@ -1,0 +1,3724 @@
+fileFormatVersion: 2
+guid: 464d4bad87eaa1345b8dcd21bd69d1da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5058136973300286125
+    second: space-blks-1.034_0
+  - first:
+      213: -4459323329367891887
+    second: space-blks-1.034_1
+  - first:
+      213: -8403876217502123113
+    second: space-blks-1.034_2
+  - first:
+      213: -478862881981867190
+    second: space-blks-1.034_3
+  - first:
+      213: 7243371445549012190
+    second: space-blks-1.034_4
+  - first:
+      213: 8187338358865304560
+    second: space-blks-1.034_5
+  - first:
+      213: 1585564105923615803
+    second: space-blks-1.034_6
+  - first:
+      213: 5912595018452319356
+    second: space-blks-1.034_7
+  - first:
+      213: -3643935692520852509
+    second: space-blks-1.034_8
+  - first:
+      213: -6360294182812745772
+    second: space-blks-1.034_9
+  - first:
+      213: 5077338603002830485
+    second: space-blks-1.034_10
+  - first:
+      213: -4380430746400791758
+    second: space-blks-1.034_11
+  - first:
+      213: 2733951389658733125
+    second: space-blks-1.034_12
+  - first:
+      213: 83569667698363895
+    second: space-blks-1.034_13
+  - first:
+      213: -3560237027499974137
+    second: space-blks-1.034_14
+  - first:
+      213: 4677784176182812586
+    second: space-blks-1.034_15
+  - first:
+      213: -1727385891284639282
+    second: space-blks-1.034_16
+  - first:
+      213: 3013661224373904702
+    second: space-blks-1.034_17
+  - first:
+      213: 8789358316846744314
+    second: space-blks-1.034_18
+  - first:
+      213: 6223874612375816381
+    second: space-blks-1.034_19
+  - first:
+      213: 8363720481506471494
+    second: space-blks-1.034_20
+  - first:
+      213: 4360623135936756390
+    second: space-blks-1.034_21
+  - first:
+      213: -7237640568702917534
+    second: space-blks-1.034_22
+  - first:
+      213: -903816582376153501
+    second: space-blks-1.034_23
+  - first:
+      213: 8293951908289027955
+    second: space-blks-1.034_24
+  - first:
+      213: -2178296886153775766
+    second: space-blks-1.034_25
+  - first:
+      213: -1457605248964036474
+    second: space-blks-1.034_26
+  - first:
+      213: -20675084283427535
+    second: space-blks-1.034_27
+  - first:
+      213: 836898781954897020
+    second: space-blks-1.034_28
+  - first:
+      213: -9175129948517264776
+    second: space-blks-1.034_29
+  - first:
+      213: 3449077541225963917
+    second: space-blks-1.034_30
+  - first:
+      213: 365682129934866587
+    second: space-blks-1.034_31
+  - first:
+      213: 7699869526745567288
+    second: space-blks-1.034_32
+  - first:
+      213: -8480755292885575281
+    second: space-blks-1.034_33
+  - first:
+      213: 2414741883644633849
+    second: space-blks-1.034_34
+  - first:
+      213: -4987238794001553015
+    second: space-blks-1.034_35
+  - first:
+      213: 4234116385496410397
+    second: space-blks-1.034_36
+  - first:
+      213: -4807055903317074935
+    second: space-blks-1.034_37
+  - first:
+      213: -1457545935871620084
+    second: space-blks-1.034_38
+  - first:
+      213: -3502006834965675702
+    second: space-blks-1.034_39
+  - first:
+      213: -3434049926357594081
+    second: space-blks-1.034_40
+  - first:
+      213: 5146127768143347890
+    second: space-blks-1.034_41
+  - first:
+      213: 2117455524329981215
+    second: space-blks-1.034_42
+  - first:
+      213: 5937718372369753597
+    second: space-blks-1.034_43
+  - first:
+      213: -2835507823458122849
+    second: space-blks-1.034_44
+  - first:
+      213: -8159375069069689316
+    second: space-blks-1.034_45
+  - first:
+      213: -2381789491755048074
+    second: space-blks-1.034_46
+  - first:
+      213: -1419171477531934069
+    second: space-blks-1.034_47
+  - first:
+      213: -8463151330036164398
+    second: space-blks-1.034_48
+  - first:
+      213: 3673745829450994489
+    second: space-blks-1.034_49
+  - first:
+      213: -4047785101138506993
+    second: space-blks-1.034_50
+  - first:
+      213: 6592136616966884135
+    second: space-blks-1.034_51
+  - first:
+      213: -1167192693995734067
+    second: space-blks-1.034_52
+  - first:
+      213: -8487773379908339897
+    second: space-blks-1.034_53
+  - first:
+      213: 2204848680954879503
+    second: space-blks-1.034_54
+  - first:
+      213: 8304309325665755624
+    second: space-blks-1.034_55
+  - first:
+      213: 411291318281933342
+    second: space-blks-1.034_56
+  - first:
+      213: 3406465656730824784
+    second: space-blks-1.034_57
+  - first:
+      213: 3397913711001551447
+    second: space-blks-1.034_58
+  - first:
+      213: 601001303536747442
+    second: space-blks-1.034_59
+  - first:
+      213: -3697381852569432791
+    second: space-blks-1.034_60
+  - first:
+      213: -1253938672727664262
+    second: space-blks-1.034_61
+  - first:
+      213: 5245604787246755806
+    second: space-blks-1.034_62
+  - first:
+      213: 3715223089465084834
+    second: space-blks-1.034_63
+  - first:
+      213: 5363355854656644065
+    second: space-blks-1.034_64
+  - first:
+      213: -2311382377900917901
+    second: space-blks-1.034_65
+  - first:
+      213: -3344630296039484512
+    second: space-blks-1.034_66
+  - first:
+      213: 2739919403374800885
+    second: space-blks-1.034_67
+  - first:
+      213: -8025548314581904332
+    second: space-blks-1.034_68
+  - first:
+      213: -754702308595378359
+    second: space-blks-1.034_69
+  - first:
+      213: 3900063492233193137
+    second: space-blks-1.034_70
+  - first:
+      213: -2340219557739935490
+    second: space-blks-1.034_71
+  - first:
+      213: 4673310318361966868
+    second: space-blks-1.034_72
+  - first:
+      213: -3046561182294682120
+    second: space-blks-1.034_73
+  - first:
+      213: -4653903862037398208
+    second: space-blks-1.034_74
+  - first:
+      213: 943415829584860104
+    second: space-blks-1.034_75
+  - first:
+      213: 4044457427539954682
+    second: space-blks-1.034_76
+  - first:
+      213: -5345619572676156624
+    second: space-blks-1.034_77
+  - first:
+      213: 5303456746477962395
+    second: space-blks-1.034_78
+  - first:
+      213: -3907864433379508980
+    second: space-blks-1.034_79
+  - first:
+      213: 5468295861650633698
+    second: space-blks-1.034_80
+  - first:
+      213: 3583260681609435746
+    second: space-blks-1.034_81
+  - first:
+      213: 2909486352625442201
+    second: space-blks-1.034_82
+  - first:
+      213: -1722154885055911211
+    second: space-blks-1.034_83
+  - first:
+      213: -1877813996268150643
+    second: space-blks-1.034_84
+  - first:
+      213: -2275307110539844429
+    second: space-blks-1.034_85
+  - first:
+      213: -8379725064232046794
+    second: space-blks-1.034_86
+  - first:
+      213: -7152212856149545036
+    second: space-blks-1.034_87
+  - first:
+      213: 6073727285494598027
+    second: space-blks-1.034_88
+  - first:
+      213: 3928420808691395846
+    second: space-blks-1.034_89
+  - first:
+      213: -5007859347272656584
+    second: space-blks-1.034_90
+  - first:
+      213: -6511617199296725365
+    second: space-blks-1.034_91
+  - first:
+      213: -2643830366087747279
+    second: space-blks-1.034_92
+  - first:
+      213: -6396013140269341187
+    second: space-blks-1.034_93
+  - first:
+      213: -6083154777047109931
+    second: space-blks-1.034_94
+  - first:
+      213: 146380951652028361
+    second: space-blks-1.034_95
+  - first:
+      213: -2868009357976455606
+    second: space-blks-1.034_96
+  - first:
+      213: 6430151108016955067
+    second: space-blks-1.034_97
+  - first:
+      213: 7808333157900883981
+    second: space-blks-1.034_98
+  - first:
+      213: -9120950680900683171
+    second: space-blks-1.034_99
+  - first:
+      213: -8253229971165671883
+    second: space-blks-1.034_100
+  - first:
+      213: 7995507683415320638
+    second: space-blks-1.034_101
+  - first:
+      213: -424994781661290286
+    second: space-blks-1.034_102
+  - first:
+      213: -5863326975691071131
+    second: space-blks-1.034_103
+  - first:
+      213: 1700061708650608008
+    second: space-blks-1.034_104
+  - first:
+      213: 4701045549495442618
+    second: space-blks-1.034_105
+  - first:
+      213: 7465512384265596824
+    second: space-blks-1.034_106
+  - first:
+      213: -4340186645586560638
+    second: space-blks-1.034_107
+  - first:
+      213: 696359755585068647
+    second: space-blks-1.034_108
+  - first:
+      213: 4680072447864857561
+    second: space-blks-1.034_109
+  - first:
+      213: -1110979170212849258
+    second: space-blks-1.034_110
+  - first:
+      213: 366670932625959217
+    second: space-blks-1.034_111
+  - first:
+      213: 5050539268223171754
+    second: space-blks-1.034_112
+  - first:
+      213: -6291916866594006441
+    second: space-blks-1.034_113
+  - first:
+      213: 3127869945372460262
+    second: space-blks-1.034_114
+  - first:
+      213: -3126223398326691220
+    second: space-blks-1.034_115
+  - first:
+      213: 6396669394990060110
+    second: space-blks-1.034_116
+  - first:
+      213: -8232317051935162245
+    second: space-blks-1.034_117
+  - first:
+      213: -2777032102979978369
+    second: space-blks-1.034_118
+  - first:
+      213: 3188955426330839167
+    second: space-blks-1.034_119
+  - first:
+      213: -8337703593185026659
+    second: space-blks-1.034_120
+  - first:
+      213: -2799208145474328758
+    second: space-blks-1.034_121
+  - first:
+      213: -648429323765472057
+    second: space-blks-1.034_122
+  - first:
+      213: 7179388856258590350
+    second: space-blks-1.034_123
+  - first:
+      213: -2949832839468957884
+    second: space-blks-1.034_124
+  - first:
+      213: -1703581638667978084
+    second: space-blks-1.034_125
+  - first:
+      213: 3660685854336637535
+    second: space-blks-1.034_126
+  - first:
+      213: 3078352592453771067
+    second: space-blks-1.034_127
+  - first:
+      213: -9125495442221586807
+    second: space-blks-1.034_128
+  - first:
+      213: -3920563105276077290
+    second: space-blks-1.034_129
+  - first:
+      213: -6034668254605453590
+    second: space-blks-1.034_130
+  - first:
+      213: -583842571839579997
+    second: space-blks-1.034_131
+  - first:
+      213: -41597198414601036
+    second: space-blks-1.034_132
+  - first:
+      213: -4597411615322599801
+    second: space-blks-1.034_133
+  - first:
+      213: -8906039649601748741
+    second: space-blks-1.034_134
+  - first:
+      213: -622245961165459717
+    second: space-blks-1.034_135
+  - first:
+      213: 7597118960607152082
+    second: space-blks-1.034_136
+  - first:
+      213: 1014511886520206478
+    second: space-blks-1.034_137
+  - first:
+      213: -7029988912214691696
+    second: space-blks-1.034_138
+  - first:
+      213: 3928190709562224548
+    second: space-blks-1.034_139
+  - first:
+      213: -6465628173754301320
+    second: space-blks-1.034_140
+  - first:
+      213: -2492927277846544528
+    second: space-blks-1.034_141
+  - first:
+      213: -4611222133561664422
+    second: space-blks-1.034_142
+  - first:
+      213: -7917128617194209063
+    second: space-blks-1.034_143
+  - first:
+      213: -1081528948189608883
+    second: space-blks-1.034_144
+  - first:
+      213: -4963879744803230621
+    second: space-blks-1.034_145
+  - first:
+      213: 407763566269423622
+    second: space-blks-1.034_146
+  - first:
+      213: -8949957145127733714
+    second: space-blks-1.034_147
+  - first:
+      213: 4098718253236979036
+    second: space-blks-1.034_148
+  - first:
+      213: -404255776524206079
+    second: space-blks-1.034_149
+  - first:
+      213: 1997247686365898297
+    second: space-blks-1.034_150
+  - first:
+      213: 6259448909591448424
+    second: space-blks-1.034_151
+  - first:
+      213: -7033865443957756283
+    second: space-blks-1.034_152
+  - first:
+      213: 3718808283872978386
+    second: space-blks-1.034_153
+  - first:
+      213: -6572054943535436766
+    second: space-blks-1.034_154
+  - first:
+      213: -6696429370759950374
+    second: space-blks-1.034_155
+  - first:
+      213: -6683527582348458059
+    second: space-blks-1.034_156
+  - first:
+      213: -1530386291158344333
+    second: space-blks-1.034_157
+  - first:
+      213: -249972269834265248
+    second: space-blks-1.034_158
+  - first:
+      213: 546533859352221232
+    second: space-blks-1.034_159
+  - first:
+      213: -5859470969679935436
+    second: space-blks-1.034_160
+  - first:
+      213: 5937380389861247239
+    second: space-blks-1.034_161
+  - first:
+      213: 2871262978085516053
+    second: space-blks-1.034_162
+  - first:
+      213: 3935656696296519132
+    second: space-blks-1.034_163
+  - first:
+      213: -8520348379109741427
+    second: space-blks-1.034_164
+  - first:
+      213: 3730179608156372621
+    second: space-blks-1.034_165
+  - first:
+      213: 8457814397512642102
+    second: space-blks-1.034_166
+  - first:
+      213: 889312466400410699
+    second: space-blks-1.034_167
+  - first:
+      213: -1382473215858133908
+    second: space-blks-1.034_168
+  - first:
+      213: -6277874078725754606
+    second: space-blks-1.034_169
+  - first:
+      213: 2990731098829847910
+    second: space-blks-1.034_170
+  - first:
+      213: 5985303956945136292
+    second: space-blks-1.034_171
+  - first:
+      213: -8751541387685096750
+    second: space-blks-1.034_172
+  - first:
+      213: -407941839061141404
+    second: space-blks-1.034_173
+  - first:
+      213: 9035934132840550709
+    second: space-blks-1.034_174
+  - first:
+      213: -4366307452800736451
+    second: space-blks-1.034_175
+  - first:
+      213: 5925866510559396862
+    second: space-blks-1.034_176
+  - first:
+      213: -6582346195255143907
+    second: space-blks-1.034_177
+  - first:
+      213: -3597755067100781321
+    second: space-blks-1.034_178
+  - first:
+      213: -3891063944063494519
+    second: space-blks-1.034_179
+  - first:
+      213: -4263527715729980373
+    second: space-blks-1.034_180
+  - first:
+      213: -5789219780256506802
+    second: space-blks-1.034_181
+  - first:
+      213: -1736493583714126698
+    second: space-blks-1.034_182
+  - first:
+      213: -6257250988751785512
+    second: space-blks-1.034_183
+  - first:
+      213: 7790607113724622099
+    second: space-blks-1.034_184
+  - first:
+      213: -3639580618359779998
+    second: space-blks-1.034_185
+  - first:
+      213: -4567569583647786231
+    second: space-blks-1.034_186
+  - first:
+      213: 2137377813722098323
+    second: space-blks-1.034_187
+  - first:
+      213: 4829125780333411312
+    second: space-blks-1.034_188
+  - first:
+      213: -2603475660985458363
+    second: space-blks-1.034_189
+  - first:
+      213: 8592717746668793659
+    second: space-blks-1.034_190
+  - first:
+      213: 130754835085653502
+    second: space-blks-1.034_191
+  - first:
+      213: 8604545646162148474
+    second: space-blks-1.034_192
+  - first:
+      213: -4922614429254496852
+    second: space-blks-1.034_193
+  - first:
+      213: 7708166095647083309
+    second: space-blks-1.034_194
+  - first:
+      213: 1068677770790434083
+    second: space-blks-1.034_195
+  - first:
+      213: 1491712105300976599
+    second: space-blks-1.034_196
+  - first:
+      213: 6202316973829914302
+    second: space-blks-1.034_197
+  - first:
+      213: 1668457536615913816
+    second: space-blks-1.034_198
+  - first:
+      213: -5668952569854074388
+    second: space-blks-1.034_199
+  - first:
+      213: 5051172706644673425
+    second: space-blks-1.034_200
+  - first:
+      213: -302798162066597015
+    second: space-blks-1.034_201
+  - first:
+      213: -780330589241724780
+    second: space-blks-1.034_202
+  - first:
+      213: -8440159947122079802
+    second: space-blks-1.034_203
+  - first:
+      213: 1310493476704744723
+    second: space-blks-1.034_204
+  - first:
+      213: -5048834943071165773
+    second: space-blks-1.034_205
+  - first:
+      213: -1191195096120937323
+    second: space-blks-1.034_206
+  - first:
+      213: 8263178739687968839
+    second: space-blks-1.034_207
+  - first:
+      213: 3207779103237967361
+    second: space-blks-1.034_208
+  - first:
+      213: 727868932301957426
+    second: space-blks-1.034_209
+  - first:
+      213: -356039838303639559
+    second: space-blks-1.034_210
+  - first:
+      213: -5563557588699501339
+    second: space-blks-1.034_211
+  - first:
+      213: -7201092800916698220
+    second: space-blks-1.034_212
+  - first:
+      213: -4163697297663113419
+    second: space-blks-1.034_213
+  - first:
+      213: 4847459152232127116
+    second: space-blks-1.034_214
+  - first:
+      213: 3756907449330616109
+    second: space-blks-1.034_215
+  - first:
+      213: -3598965292781793644
+    second: space-blks-1.034_216
+  - first:
+      213: -3435432935341350684
+    second: space-blks-1.034_217
+  - first:
+      213: 4487504171363430871
+    second: space-blks-1.034_218
+  - first:
+      213: 5836914948960387023
+    second: space-blks-1.034_219
+  - first:
+      213: -1923531171255439387
+    second: space-blks-1.034_220
+  - first:
+      213: -5875912599193953472
+    second: space-blks-1.034_221
+  - first:
+      213: -7306576876912182320
+    second: space-blks-1.034_222
+  - first:
+      213: 7353381593380739103
+    second: space-blks-1.034_223
+  - first:
+      213: -3900369435408886556
+    second: space-blks-1.034_224
+  - first:
+      213: -1069240330159957950
+    second: space-blks-1.034_225
+  - first:
+      213: -4159567522124894521
+    second: space-blks-1.034_226
+  - first:
+      213: 6235849359159453187
+    second: space-blks-1.034_227
+  - first:
+      213: 8507591273341022500
+    second: space-blks-1.034_228
+  - first:
+      213: 8943199468890883840
+    second: space-blks-1.034_229
+  - first:
+      213: -5024295038777538650
+    second: space-blks-1.034_230
+  - first:
+      213: -9129999391597040792
+    second: space-blks-1.034_231
+  - first:
+      213: 6433392866281742077
+    second: space-blks-1.034_232
+  - first:
+      213: 2476236553590930899
+    second: space-blks-1.034_233
+  - first:
+      213: 4809972727407663789
+    second: space-blks-1.034_234
+  - first:
+      213: -7044024658426326954
+    second: space-blks-1.034_235
+  - first:
+      213: 270159496993377007
+    second: space-blks-1.034_236
+  - first:
+      213: 1954727702814484724
+    second: space-blks-1.034_237
+  - first:
+      213: 5734852225535457006
+    second: space-blks-1.034_238
+  - first:
+      213: -6980826794819368442
+    second: space-blks-1.034_239
+  - first:
+      213: 96576767895491411
+    second: space-blks-1.034_240
+  - first:
+      213: -1745300504630331764
+    second: space-blks-1.034_241
+  - first:
+      213: 5137044734840113873
+    second: space-blks-1.034_242
+  - first:
+      213: -2740460219024765004
+    second: space-blks-1.034_243
+  - first:
+      213: -3044776576853534563
+    second: space-blks-1.034_244
+  - first:
+      213: 6087202680835468695
+    second: space-blks-1.034_245
+  - first:
+      213: 8377543834470047675
+    second: space-blks-1.034_246
+  - first:
+      213: 6616164630026678516
+    second: space-blks-1.034_247
+  - first:
+      213: 5206461084826814272
+    second: space-blks-1.034_248
+  - first:
+      213: 5494261681084046937
+    second: space-blks-1.034_249
+  - first:
+      213: 3938615611515330433
+    second: space-blks-1.034_250
+  - first:
+      213: -1492955951995393710
+    second: space-blks-1.034_251
+  - first:
+      213: -11606614467001514
+    second: space-blks-1.034_252
+  - first:
+      213: 1453525841301434272
+    second: space-blks-1.034_253
+  - first:
+      213: -4612572916306764764
+    second: space-blks-1.034_254
+  - first:
+      213: 1794030153647539415
+    second: space-blks-1.034_255
+  - first:
+      213: -1902654072656388957
+    second: space-blks-1.034_256
+  - first:
+      213: -7732707129814986160
+    second: space-blks-1.034_257
+  - first:
+      213: -8048345095654174086
+    second: space-blks-1.034_258
+  - first:
+      213: 4841236412454757707
+    second: space-blks-1.034_259
+  - first:
+      213: -7700453508149571510
+    second: space-blks-1.034_260
+  - first:
+      213: -776513972744383110
+    second: space-blks-1.034_261
+  - first:
+      213: -676702041132611331
+    second: space-blks-1.034_262
+  - first:
+      213: 3028655876238932962
+    second: space-blks-1.034_263
+  - first:
+      213: 371001943305812737
+    second: space-blks-1.034_264
+  - first:
+      213: -3475774791818420255
+    second: space-blks-1.034_265
+  - first:
+      213: -6686169464656898093
+    second: space-blks-1.034_266
+  - first:
+      213: -4138665894733603603
+    second: space-blks-1.034_267
+  - first:
+      213: 3930493841787125600
+    second: space-blks-1.034_268
+  - first:
+      213: -7393522795122039401
+    second: space-blks-1.034_269
+  - first:
+      213: -2984379157064812641
+    second: space-blks-1.034_270
+  - first:
+      213: -6004125342909719871
+    second: space-blks-1.034_271
+  - first:
+      213: -1533764067492961195
+    second: space-blks-1.034_272
+  - first:
+      213: -135528725228297190
+    second: space-blks-1.034_273
+  - first:
+      213: 593195136664398141
+    second: space-blks-1.034_274
+  - first:
+      213: -5000205433573612877
+    second: space-blks-1.034_275
+  - first:
+      213: 7815465421655988984
+    second: space-blks-1.034_276
+  - first:
+      213: -5742906237956025320
+    second: space-blks-1.034_277
+  - first:
+      213: -6845796081816407025
+    second: space-blks-1.034_278
+  - first:
+      213: 216523339050041666
+    second: space-blks-1.034_279
+  - first:
+      213: -3553631661831783992
+    second: space-blks-1.034_280
+  - first:
+      213: -215560694206370849
+    second: space-blks-1.034_281
+  - first:
+      213: -155067736892933033
+    second: space-blks-1.034_282
+  - first:
+      213: -6577322018313813751
+    second: space-blks-1.034_283
+  - first:
+      213: 5706490549844995005
+    second: space-blks-1.034_284
+  - first:
+      213: 3112750378847259563
+    second: space-blks-1.034_285
+  - first:
+      213: -8521147747898002378
+    second: space-blks-1.034_286
+  - first:
+      213: 2459671693046970023
+    second: space-blks-1.034_287
+  - first:
+      213: 8465817405314409982
+    second: space-blks-1.034_288
+  - first:
+      213: -626539388859631911
+    second: space-blks-1.034_289
+  - first:
+      213: -7532440296528116117
+    second: space-blks-1.034_290
+  - first:
+      213: 8308416984976208718
+    second: space-blks-1.034_291
+  - first:
+      213: -21550943017073483
+    second: space-blks-1.034_292
+  - first:
+      213: 3722116394375281626
+    second: space-blks-1.034_293
+  - first:
+      213: 7770386451702083518
+    second: space-blks-1.034_294
+  - first:
+      213: -6028372653961938127
+    second: space-blks-1.034_295
+  - first:
+      213: -8624031779762708685
+    second: space-blks-1.034_296
+  - first:
+      213: -763223843812397818
+    second: space-blks-1.034_297
+  - first:
+      213: -6437010669367147014
+    second: space-blks-1.034_298
+  - first:
+      213: 2290183533634113709
+    second: space-blks-1.034_299
+  - first:
+      213: -4536791054784217091
+    second: space-blks-1.034_300
+  - first:
+      213: 2490638135537743516
+    second: space-blks-1.034_301
+  - first:
+      213: -3456995250227468676
+    second: space-blks-1.034_302
+  - first:
+      213: -84422125947503290
+    second: space-blks-1.034_303
+  - first:
+      213: -8837132363499173238
+    second: space-blks-1.034_304
+  - first:
+      213: 5568383643769576257
+    second: space-blks-1.034_305
+  - first:
+      213: 7235412858228937534
+    second: space-blks-1.034_306
+  - first:
+      213: -8102432929832476595
+    second: space-blks-1.034_307
+  - first:
+      213: 2051899800140643567
+    second: space-blks-1.034_308
+  - first:
+      213: -5803037544872719826
+    second: space-blks-1.034_309
+  - first:
+      213: 3413330033344004370
+    second: space-blks-1.034_310
+  - first:
+      213: 6520224593538822390
+    second: space-blks-1.034_311
+  - first:
+      213: 6143641710253975662
+    second: space-blks-1.034_312
+  - first:
+      213: 8938144633129938119
+    second: space-blks-1.034_313
+  - first:
+      213: 3765637409571463276
+    second: space-blks-1.034_314
+  - first:
+      213: 809911990358203795
+    second: space-blks-1.034_315
+  - first:
+      213: 6351393091494206360
+    second: space-blks-1.034_316
+  - first:
+      213: -3664458427863909929
+    second: space-blks-1.034_317
+  - first:
+      213: -2808253807551031606
+    second: space-blks-1.034_318
+  - first:
+      213: 6256250144630840243
+    second: space-blks-1.034_319
+  - first:
+      213: 2192480637156753176
+    second: space-blks-1.034_320
+  - first:
+      213: 8565745977376589614
+    second: space-blks-1.034_321
+  - first:
+      213: 491306270449755320
+    second: space-blks-1.034_322
+  - first:
+      213: 1687235930508859517
+    second: space-blks-1.034_323
+  - first:
+      213: -7052820213686128448
+    second: space-blks-1.034_324
+  - first:
+      213: 3646293772060773421
+    second: space-blks-1.034_325
+  - first:
+      213: -5093055873499377225
+    second: space-blks-1.034_326
+  - first:
+      213: 8540744528707918064
+    second: space-blks-1.034_327
+  - first:
+      213: 935802922505981260
+    second: space-blks-1.034_328
+  - first:
+      213: 3202718707635944765
+    second: space-blks-1.034_329
+  - first:
+      213: -6236523111949143413
+    second: space-blks-1.034_330
+  - first:
+      213: 5310828325481604792
+    second: space-blks-1.034_331
+  - first:
+      213: -272902225031846132
+    second: space-blks-1.034_332
+  - first:
+      213: 8327181039590975261
+    second: space-blks-1.034_333
+  - first:
+      213: 3706982955838219556
+    second: space-blks-1.034_334
+  - first:
+      213: 6024225446496726980
+    second: space-blks-1.034_335
+  - first:
+      213: -3120012041365506565
+    second: space-blks-1.034_336
+  - first:
+      213: 3926560637488392574
+    second: space-blks-1.034_337
+  - first:
+      213: 3566750826753806402
+    second: space-blks-1.034_338
+  - first:
+      213: 6242107928122053030
+    second: space-blks-1.034_339
+  - first:
+      213: -753538044959202583
+    second: space-blks-1.034_340
+  - first:
+      213: -9127727716973289585
+    second: space-blks-1.034_341
+  - first:
+      213: 8490082315521795720
+    second: space-blks-1.034_342
+  - first:
+      213: 1606887953562424706
+    second: space-blks-1.034_343
+  - first:
+      213: -9000970404933377432
+    second: space-blks-1.034_344
+  - first:
+      213: -9066673846939625072
+    second: space-blks-1.034_345
+  - first:
+      213: 7460675520631663843
+    second: space-blks-1.034_346
+  - first:
+      213: 5729050279276010846
+    second: space-blks-1.034_347
+  - first:
+      213: -825380904491080068
+    second: space-blks-1.034_348
+  - first:
+      213: 2811073478446579641
+    second: space-blks-1.034_349
+  - first:
+      213: 7263873803649714249
+    second: space-blks-1.034_350
+  - first:
+      213: -2829614336945416716
+    second: space-blks-1.034_351
+  - first:
+      213: 9207890220234338586
+    second: space-blks-1.034_352
+  - first:
+      213: -2643594163843543968
+    second: space-blks-1.034_353
+  - first:
+      213: 2610092101158630990
+    second: space-blks-1.034_354
+  - first:
+      213: -5147484214693874629
+    second: space-blks-1.034_355
+  - first:
+      213: -3792294701787448337
+    second: space-blks-1.034_356
+  - first:
+      213: 7346672712460556014
+    second: space-blks-1.034_357
+  - first:
+      213: 7687018205606093738
+    second: space-blks-1.034_358
+  - first:
+      213: -6023727290700572263
+    second: space-blks-1.034_359
+  - first:
+      213: 6411592678544841140
+    second: space-blks-1.034_360
+  - first:
+      213: 135641746867447456
+    second: space-blks-1.034_361
+  - first:
+      213: -5567467391067499911
+    second: space-blks-1.034_362
+  - first:
+      213: 1305478948305806242
+    second: space-blks-1.034_363
+  - first:
+      213: -6898741730328467643
+    second: space-blks-1.034_364
+  - first:
+      213: 7113523291267843637
+    second: space-blks-1.034_365
+  - first:
+      213: 7655596522921331960
+    second: space-blks-1.034_366
+  - first:
+      213: 7230334084890368113
+    second: space-blks-1.034_367
+  - first:
+      213: 6118851464386263527
+    second: space-blks-1.034_368
+  - first:
+      213: 126714528201958064
+    second: space-blks-1.034_369
+  - first:
+      213: -5635279945648219260
+    second: space-blks-1.034_370
+  - first:
+      213: -2721755171838922583
+    second: space-blks-1.034_371
+  - first:
+      213: 6616101570069627719
+    second: space-blks-1.034_372
+  - first:
+      213: 4887292825569600115
+    second: space-blks-1.034_373
+  - first:
+      213: -6395773558043565640
+    second: space-blks-1.034_374
+  - first:
+      213: -6960009629593604750
+    second: space-blks-1.034_375
+  - first:
+      213: -4572711011102819734
+    second: space-blks-1.034_376
+  - first:
+      213: -8650282255105192626
+    second: space-blks-1.034_377
+  - first:
+      213: 5766705375637595792
+    second: space-blks-1.034_378
+  - first:
+      213: -634857704593920506
+    second: space-blks-1.034_379
+  - first:
+      213: -5921606685763807206
+    second: space-blks-1.034_380
+  - first:
+      213: 3169414685444223027
+    second: space-blks-1.034_381
+  - first:
+      213: -3158135101286072662
+    second: space-blks-1.034_382
+  - first:
+      213: -7600180508392260792
+    second: space-blks-1.034_383
+  - first:
+      213: -8943674960239329167
+    second: space-blks-1.034_384
+  - first:
+      213: -5932517039972821954
+    second: space-blks-1.034_385
+  - first:
+      213: 8398268828883877561
+    second: space-blks-1.034_386
+  - first:
+      213: -8973534854216347026
+    second: space-blks-1.034_387
+  - first:
+      213: 2121683718729416527
+    second: space-blks-1.034_388
+  - first:
+      213: 6191246973856128993
+    second: space-blks-1.034_389
+  - first:
+      213: 4614289813346017757
+    second: space-blks-1.034_390
+  - first:
+      213: 2675365652070609975
+    second: space-blks-1.034_391
+  - first:
+      213: -4693861844744978020
+    second: space-blks-1.034_392
+  - first:
+      213: -4607618434893475533
+    second: space-blks-1.034_393
+  - first:
+      213: -8807948767224717925
+    second: space-blks-1.034_394
+  - first:
+      213: -5190339251202239172
+    second: space-blks-1.034_395
+  - first:
+      213: -3668497023596835147
+    second: space-blks-1.034_396
+  - first:
+      213: 6848863723278321542
+    second: space-blks-1.034_397
+  - first:
+      213: -839056638372830219
+    second: space-blks-1.034_398
+  - first:
+      213: 9056447087812412081
+    second: space-blks-1.034_399
+  - first:
+      213: 3874686924705046489
+    second: space-blks-1.034_400
+  - first:
+      213: 8647244819214558064
+    second: space-blks-1.034_401
+  - first:
+      213: 7559389608590235365
+    second: space-blks-1.034_402
+  - first:
+      213: 4374802902713630543
+    second: space-blks-1.034_403
+  - first:
+      213: -3077391637515046999
+    second: space-blks-1.034_404
+  - first:
+      213: 4395913364865960802
+    second: space-blks-1.034_405
+  - first:
+      213: -3165706016550548502
+    second: space-blks-1.034_406
+  - first:
+      213: -6465471376604236999
+    second: space-blks-1.034_407
+  - first:
+      213: -1421905944231022799
+    second: space-blks-1.034_408
+  - first:
+      213: -4266550015503180523
+    second: space-blks-1.034_409
+  - first:
+      213: -7031266499889101628
+    second: space-blks-1.034_410
+  - first:
+      213: 5048511981597282483
+    second: space-blks-1.034_411
+  - first:
+      213: 5916367356413058501
+    second: space-blks-1.034_412
+  - first:
+      213: -4381476286699871294
+    second: space-blks-1.034_413
+  - first:
+      213: -8210870229994432999
+    second: space-blks-1.034_414
+  - first:
+      213: -4454928461495872812
+    second: space-blks-1.034_415
+  - first:
+      213: -7494057720353421444
+    second: space-blks-1.034_416
+  - first:
+      213: 8894188007039081337
+    second: space-blks-1.034_417
+  - first:
+      213: -38677839316686534
+    second: space-blks-1.034_418
+  - first:
+      213: -7092979719824997980
+    second: space-blks-1.034_419
+  - first:
+      213: -1959481401209582781
+    second: space-blks-1.034_420
+  - first:
+      213: 1520531216667198624
+    second: space-blks-1.034_421
+  - first:
+      213: -4120562532609379500
+    second: space-blks-1.034_422
+  - first:
+      213: -4847386420452683571
+    second: space-blks-1.034_423
+  - first:
+      213: 3685325775950505126
+    second: space-blks-1.034_424
+  - first:
+      213: -1273538788504001961
+    second: space-blks-1.034_425
+  - first:
+      213: -4545685034949546443
+    second: space-blks-1.034_426
+  - first:
+      213: -9103929785168211540
+    second: space-blks-1.034_427
+  - first:
+      213: -3910548440149119279
+    second: space-blks-1.034_428
+  - first:
+      213: 8899996602991120778
+    second: space-blks-1.034_429
+  - first:
+      213: -7906895382137232186
+    second: space-blks-1.034_430
+  - first:
+      213: -4317039128860596485
+    second: space-blks-1.034_431
+  - first:
+      213: 5196726161057278669
+    second: space-blks-1.034_432
+  - first:
+      213: 4994421449725546526
+    second: space-blks-1.034_433
+  - first:
+      213: 4763569810633020604
+    second: space-blks-1.034_434
+  - first:
+      213: 2741175358944734913
+    second: space-blks-1.034_435
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: space-blks-1.034_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8f14b55cf8d404e9952bd4b1fd887e
+      internalID: 5058136973300286125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b919bfcf4e1c0468a2f7f015db9560
+      internalID: -4459323329367891887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092c4e667ca4c284c8f3f2a0bd3049c9
+      internalID: -8403876217502123113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60d1db7409afc54ea403d4e11361173
+      internalID: -478862881981867190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a58e5572159ee41b49fe87d34b0f7f
+      internalID: 7243371445549012190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b812b7ac1397aa842954e670a8f681f5
+      internalID: 8187338358865304560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71701d2878f84b548b0162ad08fdf7ff
+      internalID: 1585564105923615803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f2a9c1632a5984eb843bb5b1c787a4
+      internalID: 5912595018452319356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ae8744164b55a46acca14ae4035a40
+      internalID: -3643935692520852509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845e802ac4657b14eac95bf9d164d827
+      internalID: -6360294182812745772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718b94f47b7fbbd498dc2eb48f140b19
+      internalID: 5077338603002830485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a663d3f22daa4c91c3f8844eb3884
+      internalID: -4380430746400791758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f6fde313becbd4f89b554197d94075
+      internalID: 2733951389658733125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab53def41074c9a4e8a69411c40460df
+      internalID: 83569667698363895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e74884a1ba2c85439bf099ece98d7e2
+      internalID: -3560237027499974137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80712dc5c1238ca4196c78ccf8274be7
+      internalID: 4677784176182812586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70596cb0ad730ed4db207c1bcc233132
+      internalID: -1727385891284639282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d67ebff50b7acf409f0ea7dd670c135
+      internalID: 3013661224373904702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0770c74896c16414f96a329bbab4078c
+      internalID: 8789358316846744314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d693206f56ddfc47bba34a2b7da4ca6
+      internalID: 6223874612375816381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aae874221a74b46b067317beec9c33
+      internalID: 8363720481506471494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeeb2621e7f6dd41abf87ebbcbfbc5d
+      internalID: 4360623135936756390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329198c549fcbdc4e850f1119d2e6c79
+      internalID: -7237640568702917534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9243717922e6fd040942ebaedded5873
+      internalID: -903816582376153501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6fe78222256f7458250c157efdfc78
+      internalID: 8293951908289027955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3e41d24bac09a45b15addbcc3391a2
+      internalID: -2178296886153775766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2b9ca73706ceb45a9d9b03338b5fda
+      internalID: -1457605248964036474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_27
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951b4b258946b0242a43726f01bb8100
+      internalID: -20675084283427535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a7d8d78d1895c4ea1d4ea125466a50
+      internalID: 836898781954897020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea15287da03fef042ac55c307e608d42
+      internalID: -9175129948517264776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6756cfa26de2c4aa52e2e5e411e533
+      internalID: 3449077541225963917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf472292b6c82b64a87c948421b159ff
+      internalID: 365682129934866587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313b9673da7079941958f974189e0e34
+      internalID: 7699869526745567288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc1c5311ebd1574594dde25bf9a49e2
+      internalID: -8480755292885575281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923be6920cf06a549acfb9915a611497
+      internalID: 2414741883644633849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131e6a229664e994e920090b2ae45f73
+      internalID: -4987238794001553015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3e7921d40d9a141abad93b87182df1
+      internalID: 4234116385496410397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a582ba25132b75340ac9d49a2e92d461
+      internalID: -4807055903317074935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_38
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24155e17808ad4baf050e6648b635a
+      internalID: -1457545935871620084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fa502e0b7420649992f598f81b1a52
+      internalID: -3502006834965675702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1f77a3d6c29454ba2a800786fc082e
+      internalID: -3434049926357594081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f4f8713f5e4d24dbe7081c6c97e869
+      internalID: 5146127768143347890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21013fa82debea14b9a82cb6c81d911b
+      internalID: 2117455524329981215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46256ecbc70520c4089713c566228763
+      internalID: 5937718372369753597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc92423c000824845a5591792271451b
+      internalID: -2835507823458122849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e3ac1d1dc40c04887606c5941af0c6
+      internalID: -8159375069069689316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a8c1ef0f7e6ab48b206c669c305925
+      internalID: -2381789491755048074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be1af34b6b8d5b42bd3a5ca74a58e91
+      internalID: -1419171477531934069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168465f8b0dd3114980ef0ba6e252a4c
+      internalID: -8463151330036164398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e04a05c3587ba428b013e0bdd9f5da
+      internalID: 3673745829450994489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c463fbfaa76ab4ab0929202871dce5
+      internalID: -4047785101138506993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddabbf18e4b6cde48a6e12f846f6e219
+      internalID: 6592136616966884135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2cdcb4e41916a46899c1735ad2dd10
+      internalID: -1167192693995734067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d756a5dd0977c4494356da7197d597
+      internalID: -8487773379908339897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084f19d2ac383634bac32016dba5d459
+      internalID: 2204848680954879503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab542568f2cbac4898392f657e6bf88
+      internalID: 8304309325665755624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_56
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb930f3dd82df14d86ff3f78d08a4e1
+      internalID: 411291318281933342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f3ba075ebda814ab83dfec88dfceb9
+      internalID: 3406465656730824784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_58
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641ebc7d000be714eaccf085545dce89
+      internalID: 3397913711001551447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0590e16308b86b448956fbf25528015
+      internalID: 601001303536747442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803b33e3441476048b7cd4e04bddb4d7
+      internalID: -3697381852569432791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bc4c828af512e4e988678849fb5734
+      internalID: -1253938672727664262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9bf9fbba903ca478bbdc0794b3c552
+      internalID: 5245604787246755806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_63
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f5e78dbf8ac4f44861d38a7691214a
+      internalID: 3715223089465084834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_64
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb47072d50301194095c3d8298f0a947
+      internalID: 5363355854656644065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_65
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55216578f35140a49a978f1482675ec8
+      internalID: -2311382377900917901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_66
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba1d8a7a1a7a844b80305bb5fde30b1
+      internalID: -3344630296039484512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_67
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125c755ef25b8514084d62203f5eb269
+      internalID: 2739919403374800885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_68
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9c442cac3cbf74fbbf43b41eeae917
+      internalID: -8025548314581904332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcd220aa35e78d458107eefeb1d827a
+      internalID: -754702308595378359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5055dcaf4349fd745a424f7dfeffc960
+      internalID: 3900063492233193137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d04a7d600568644ba2dc440e2ccab8
+      internalID: -2340219557739935490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8813218a4a0c44d948bd159b36f38b
+      internalID: 4673310318361966868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb0e6810eeeae8428070f4155ddf09f
+      internalID: -3046561182294682120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fbed34f860ba549871c4b54aabf6e2
+      internalID: -4653903862037398208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2b61aaab258a148bb1af3be695e00a
+      internalID: 943415829584860104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6295c0a20a8ea4b92b3be8aff0ee29
+      internalID: 4044457427539954682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e319392f630382341b1b5a9c53982216
+      internalID: -5345619572676156624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_78
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa725ee299d29f4f89f5a5b35c24e27
+      internalID: 5303456746477962395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85971ecfa4f1b2f4e978956a4d79e3e8
+      internalID: -3907864433379508980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8122e3be7c11f943a7751bfe3daf304
+      internalID: 5468295861650633698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015b91fad9d76164f9c1449299654b15
+      internalID: 3583260681609435746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a13e6130570ec4b89ac41ed7834b3b
+      internalID: 2909486352625442201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00117be6d87c73748b3e73da6dba226e
+      internalID: -1722154885055911211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5887537636f55c440a6a3062edc9e19f
+      internalID: -1877813996268150643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_85
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182e8a772c4d2c148ac444ecbb1463a1
+      internalID: -2275307110539844429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_86
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f511d8748f1804546bbecfb7009ca331
+      internalID: -8379725064232046794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_87
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f9661e3f7b14443b500d10042602fe
+      internalID: -7152212856149545036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_88
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae064565d59012418b4e419b2744061
+      internalID: 6073727285494598027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de75b3bd4e143ba41907cd751e9bf19c
+      internalID: 3928420808691395846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3697d2e3fd8415d47bd44a281668b01b
+      internalID: -5007859347272656584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb1c5f17a9816c4cb613ef70b9f955c
+      internalID: -6511617199296725365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff65f6bb52f63754ea7e593e4d9992c1
+      internalID: -2643830366087747279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5852d8ea439fa941ab548f2d12e5b38
+      internalID: -6396013140269341187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4287fac1c481d14c8550fdb162910a9
+      internalID: -6083154777047109931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_95
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120b22e380947934fbcb9ff46b601a44
+      internalID: 146380951652028361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_96
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f611a9a68dc6047a56c8118877489f
+      internalID: -2868009357976455606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_97
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0eea88d0397b9498b37a3b2696f5f7
+      internalID: 6430151108016955067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_98
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13c7b368adaf8442855afad91d39ea2
+      internalID: 7808333157900883981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bd0f6a7a8cf9c4b86ee6db2603e850
+      internalID: -9120950680900683171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e5b15a90ef50645ad175dd6442e84b
+      internalID: -8253229971165671883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e044917978f2c4d449a96303e96dac40
+      internalID: 7995507683415320638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a87bea8ac2d4444a1995357fef175f
+      internalID: -424994781661290286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66337df7fbea71047a32714956d06d7d
+      internalID: -5863326975691071131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_104
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafbb64ec280a2344b35ff61e48ad86a
+      internalID: 1700061708650608008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb5600b41ddd794496b96a4287e7322
+      internalID: 4701045549495442618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_106
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480164a62b08b8c4c8836b37c5762742
+      internalID: 7465512384265596824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_107
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e04f1c5c6538754e9e7a6d721c4f44c
+      internalID: -4340186645586560638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space-blks-1.034_108
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0863014566f0fc4e84e385ad18126ef
+      internalID: 696359755585068647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
