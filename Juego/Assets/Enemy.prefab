@@ -90,6 +90,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -154,7 +155,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 577585017761095575, guid: d6f65c228115944e3b384e7e3b07d8dd,
     type: 3}
   FirePoint: {fileID: 9079849144775607091}
-  target1: {fileID: 9079849145175542142}
+  enemigo: {fileID: 0}
 --- !u!114 &114743853517690282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,5 +168,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce10591f4d1341a2ad3c1619c886149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
   target: {fileID: 4021744342589173038, guid: f08f310d076c44b498ac4464edd2e905, type: 3}
