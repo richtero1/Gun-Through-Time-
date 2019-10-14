@@ -159,7 +159,7 @@ PrefabInstance:
     - target: {fileID: 9079849145175542142, guid: cb1263579b79d44c2aa818b3af7eaf4a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9079849145175542138, guid: cb1263579b79d44c2aa818b3af7eaf4a,
         type: 3}
@@ -809,7 +809,7 @@ PrefabInstance:
     - target: {fileID: 9079849145175542142, guid: cb1263579b79d44c2aa818b3af7eaf4a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9079849145175542138, guid: cb1263579b79d44c2aa818b3af7eaf4a,
         type: 3}
@@ -1334,6 +1334,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4021744342780550082, guid: f08f310d076c44b498ac4464edd2e905,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021744342780550082, guid: f08f310d076c44b498ac4464edd2e905,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.09
+      objectReference: {fileID: 0}
     - target: {fileID: 4021744342589173040, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
       propertyPath: m_CollisionDetection
@@ -1357,7 +1367,7 @@ PrefabInstance:
     - target: {fileID: 4021744342589173043, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
       propertyPath: moveSpeed
-      value: 2.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4021744342589173043, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
@@ -1427,7 +1437,7 @@ PrefabInstance:
     - target: {fileID: 9079849145175542142, guid: cb1263579b79d44c2aa818b3af7eaf4a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9079849145175542138, guid: cb1263579b79d44c2aa818b3af7eaf4a,
         type: 3}
