@@ -62,6 +62,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -71,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -826405019
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3184e0752870a4544a3977e23f49fc21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,6 +122,9 @@ MonoBehaviour:
   moveSpeed: 2.5
   rb: {fileID: 4021744342589173040}
   cam: {fileID: 0}
+  j1: {fileID: 0}
+  j2: {fileID: 0}
+  spawnPoint: {fileID: 0}
   target: {fileID: 4021744342589173042}
 --- !u!114 &4021744342589173039
 MonoBehaviour:
@@ -137,8 +141,8 @@ MonoBehaviour:
   firePoint: {fileID: 4021744342780550085}
   bulletPrefab: {fileID: 577585017761095575, guid: d6f65c228115944e3b384e7e3b07d8dd,
     type: 3}
+  j2: {fileID: 0}
   bulletForce: 20
-  Speed: 7
 --- !u!95 &4021744342589173036
 Animator:
   serializedVersion: 3

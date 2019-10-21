@@ -44,13 +44,15 @@ public class PlayerMovement : MonoBehaviour
         float angle = Mathf.Atan2(lookdir.y, lookdir.x) * Mathf.Rad2Deg -0f;
         rb.rotation = angle;
     }
-    // Funcion para que el jugador sea matado por una bala
+    // Funcion para que el jugador sea matado por una bala y respawn
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
-            target.transform.position = spawnPoint.position;
-        }
             
+            GameControl.health -= 1;
+        }
+        
+
     }
 }

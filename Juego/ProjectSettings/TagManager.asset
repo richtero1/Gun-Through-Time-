@@ -44,3 +44,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4061727025
+    locked: 0
+  - name: collition
+    uniqueID: 3651075703
+    locked: 0
+  - name: heart
+    uniqueID: 2850406809
+    locked: 0
+  - name: Player
+    uniqueID: 3468562277
+    locked: 0
+  - name: Enemy
+    uniqueID: 4070208381
+    locked: 0
+  - name: UI
+    uniqueID: 3757060571
+    locked: 0
