@@ -8,6 +8,15 @@ public class GameControl : MonoBehaviour
     public GameObject heart1, heart2, heart3, gameOver,restartButton;
     public static int health;
 
+    public static GameControl instance;
+
+    public GameObject player;
+
+    void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,12 +60,6 @@ public class GameControl : MonoBehaviour
                 restartButton.gameObject.SetActive(true);
                 Time.timeScale = 0f;
                 break;
-        }
-
-        if (restartButton.gameObject.activeSelf)
-        {
-            Time.timeScale = 1f;
-            health = 3;
         }
     }
 }

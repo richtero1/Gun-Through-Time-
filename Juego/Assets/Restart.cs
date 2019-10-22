@@ -9,5 +9,8 @@ public class Restart : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene("Juego");
+
+        Time.timeScale = 1f;
+        GameControl.health = 3;
     }
 }

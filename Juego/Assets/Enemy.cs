@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform FirePoint;
 
+    public float lookRadius = 10f;
+
     float fireRate; 
     float nextFire;
 
@@ -17,14 +19,27 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fireRate = 2f;
+        fireRate = 1.5f;
         nextFire = Time.time;
+        target = GameControl.instance.player.transform;
+        //agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        CheckIfTimeToFire();
+        float distance = Vector3.Distance(target.position, transform.position);
+
+        if(distance <= lookRadius)
+        {
+            CheckIfTimeToFire();
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, lookRadius);
     }
 
     void CheckIfTimeToFire()
