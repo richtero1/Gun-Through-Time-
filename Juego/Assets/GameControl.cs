@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GameControl : MonoBehaviour
 {
 
     public GameObject heart1, heart2, heart3, gameOver, restartButton, lose1, lose2, lose3;
-    public static int health;
+
+    public static double health;
 
     public static GameControl instance;
 
@@ -20,7 +22,7 @@ public class GameControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 10;
+        health = 3;
         heart1.gameObject.SetActive(true);
         heart2.gameObject.SetActive(true);
         heart3.gameObject.SetActive(true);

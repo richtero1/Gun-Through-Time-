@@ -8,7 +8,7 @@ public class Shooting : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     public Joystick j2;
-    public float fireRate= 0.5f;
+    float fireRate= 0.5f;
     float nextFire;
     public float bulletForce = 10f;
     public bool controles;
@@ -21,7 +21,12 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(GameControl.health == 2)
+        {
+            fireRate= 0.01f;
+        }
+
+
         if (!j2.Horizontal.Equals(0)|| !j2.Vertical.Equals(0) && controles==true)
         {
             CheckIfTimeToFire();
