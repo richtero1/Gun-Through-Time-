@@ -21,18 +21,33 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject target;
 
+    public bool controles;
+
     // Update is called once per frame
     void Update()
     {
-        movement.x = j1.Horizontal;
-        movement.y = j1.Vertical;
-        if (j2.Horizontal != 0f || j2.Vertical != 0f)
+        //controles tactiles o Manuales para casos de prueba
+       if (controles == true)
         {
-            direccion.x = j2.Horizontal;
-            direccion.y = j2.Vertical;
+            movement.x = j1.Horizontal;
+            movement.y = j1.Vertical;
+            if (j2.Horizontal != 0f || j2.Vertical != 0f)
+            {
+                direccion.x = j2.Horizontal;
+                direccion.y = j2.Vertical;
+            }
+        } 
+        else 
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+
+            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+            direccion = mousePos - rb.position;
         }
         
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        
+        
         
     }
 
@@ -44,14 +59,21 @@ public class PlayerMovement : MonoBehaviour
         float angle = Mathf.Atan2(lookdir.y, lookdir.x) * Mathf.Rad2Deg -0f;
         rb.rotation = angle;
     }
+
+
+
     // Funcion para que el jugador sea matado por una bala y respawn
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
-            
+            if (GameControl.health == 1)
+            {
+                ScoreScript.scoreValue = 0;
+            }
             GameControl.health -= 1;
         }
+
         
 
     }

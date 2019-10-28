@@ -11,6 +11,7 @@ public class Shooting : MonoBehaviour
     public float fireRate= 0.5f;
     float nextFire;
     public float bulletForce = 10f;
+    public bool controles;
 
     void Start()
     {
@@ -20,10 +21,14 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!j2.Horizontal.Equals(0)|| !j2.Vertical.Equals(0))
+        
+        if (!j2.Horizontal.Equals(0)|| !j2.Vertical.Equals(0) && controles==true)
         {
             CheckIfTimeToFire();
             //Instantiate(bulletPrefab, firePoint.transform.position, firePoint.transform.rotation);
+        }else if (controles == false && Input.GetButtonDown("Fire1"))
+        {
+            Shoot();
         }
     }
 
