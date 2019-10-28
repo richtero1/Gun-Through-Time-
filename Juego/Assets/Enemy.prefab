@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2069997137064582384}
   - component: {fileID: 2069997137064582385}
   m_Layer: 0
-  m_Name: Enemy (1)
+  m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,7 +125,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 577585017761095575, guid: d6f65c228115944e3b384e7e3b07d8dd,
     type: 3}
   FirePoint: {fileID: 2069997137764396116}
-  lookRadius: 10
+  lookRadius: 11
+  fireRate: 0.7
   enemigo: {fileID: 2069997137064582386}
 --- !u!114 &2069997137064582385
 MonoBehaviour:

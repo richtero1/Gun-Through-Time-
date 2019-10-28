@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 
     public float lookRadius = 10f;
 
-    float fireRate; 
+    public float fireRate=1.5f; 
     float nextFire;
 
     public GameObject enemigo;
@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fireRate = 1.5f;
+        
         nextFire = Time.time;
         target = GameControl.instance.player.transform;
         //agent = GetComponent<NavMeshAgent>();

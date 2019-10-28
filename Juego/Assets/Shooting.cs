@@ -8,13 +8,13 @@ public class Shooting : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     public Joystick j2;
-    float fireRate;
+    public float fireRate= 0.5f;
     float nextFire;
     public float bulletForce = 10f;
 
     void Start()
     {
-        fireRate = .5f;
+        
         nextFire = Time.time;
     }
     // Update is called once per frame
