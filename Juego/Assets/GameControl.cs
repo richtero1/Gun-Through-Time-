@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameControl : MonoBehaviour
 {
 
-    public GameObject heart1, heart2, heart3, gameOver,restartButton;
+    public GameObject heart1, heart2, heart3, gameOver, restartButton, lose1, lose2, lose3;
     public static int health;
 
     public static GameControl instance;
@@ -20,13 +20,16 @@ public class GameControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 3;
+        health = 10;
         heart1.gameObject.SetActive(true);
         heart2.gameObject.SetActive(true);
         heart3.gameObject.SetActive(true);
         gameOver.gameObject.SetActive(false);
         restartButton.gameObject.SetActive(false);
-
+        lose1.gameObject.SetActive(false);
+        lose2.gameObject.SetActive(false);
+        lose3.gameObject.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -41,6 +44,7 @@ public class GameControl : MonoBehaviour
                 heart1.gameObject.SetActive(true);
                 heart2.gameObject.SetActive(true);
                 heart3.gameObject.SetActive(true);
+
                 break;
             case 2:
                 heart1.gameObject.SetActive(true);
@@ -58,6 +62,13 @@ public class GameControl : MonoBehaviour
                 heart3.gameObject.SetActive(false);
                 gameOver.gameObject.SetActive(true);
                 restartButton.gameObject.SetActive(true);
+                
+                if (ScoreScript.scoreValue <= 200)
+                    lose1.gameObject.SetActive(true);
+                if (ScoreScript.scoreValue <= 500 && ScoreScript.scoreValue > 200)
+                    lose2.gameObject.SetActive(true);
+                if (ScoreScript.scoreValue <= 1000 && ScoreScript.scoreValue > 500)
+                    lose3.gameObject.SetActive(true);
                 Time.timeScale = 0f;
                 break;
         }

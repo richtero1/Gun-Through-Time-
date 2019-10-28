@@ -12,5 +12,6 @@ public class Restart : MonoBehaviour
 
         Time.timeScale = 1f;
         GameControl.health = 3;
+        ScoreScript.scoreValue = 0;
     }
 }

@@ -67,10 +67,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
-            if (GameControl.health == 1)
-            {
-                ScoreScript.scoreValue = 0;
-            }
+            
             GameControl.health -= 1;
         }
 
