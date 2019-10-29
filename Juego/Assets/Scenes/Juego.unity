@@ -10195,6 +10195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   win: {fileID: 839275492}
   restart2: {fileID: 534290241}
+  puntText: {fileID: 1456702032}
 --- !u!4 &1562734568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2069997137064582389, guid: b78504ed24ba940c3a96f02cb3af59ad,
@@ -32312,12 +32313,12 @@ PrefabInstance:
     - target: {fileID: 4021744342780550082, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.59
+      value: -0.57
       objectReference: {fileID: 0}
     - target: {fileID: 4021744342780550082, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.14
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 4021744342589173043, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
@@ -32403,12 +32404,12 @@ PrefabInstance:
     - target: {fileID: 4021744342589173037, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.06256533
+      value: 0.059389114
       objectReference: {fileID: 0}
     - target: {fileID: 4021744342589173037, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.7359324
+      value: 1.9798412
       objectReference: {fileID: 0}
     - target: {fileID: 4021744342589173037, guid: f08f310d076c44b498ac4464edd2e905,
         type: 3}
