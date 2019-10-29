@@ -1,14 +1,16 @@
 ﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour
 {
 
-    public GameObject heart1, heart2, heart3, gameOver, restartButton, lose1, lose2, lose3;
+    public GameObject heart1, heart2, heart3, gameOver, restartButton, lose1, lose2, lose3, highscore;
 
     public static int health;
+
+    public Text highscoreText;
 
     public static GameControl instance;
 
@@ -22,7 +24,7 @@ public class GameControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 3;
+        health = 10;
         heart1.gameObject.SetActive(true);
         heart2.gameObject.SetActive(true);
         heart3.gameObject.SetActive(true);
@@ -31,7 +33,8 @@ public class GameControl : MonoBehaviour
         lose1.gameObject.SetActive(false);
         lose2.gameObject.SetActive(false);
         lose3.gameObject.SetActive(false);
-        
+        highscore.gameObject.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -62,7 +65,9 @@ public class GameControl : MonoBehaviour
                 heart1.gameObject.SetActive(false);
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
+                highscoreText.text = "High Score;=: " +PlayerPrefs.GetInt("HighScore").ToString();
                 gameOver.gameObject.SetActive(true);
+                highscore.gameObject.SetActive(true);
                 restartButton.gameObject.SetActive(true);
                 
                 if (ScoreScript.scoreValue <= 200)

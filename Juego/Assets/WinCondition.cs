@@ -9,16 +9,19 @@ public class WinCondition : MonoBehaviour
     public GameObject win, restart2;
     
     public Text puntText;
-   
+    public Text highscore;
 
     // Start is called before the first frame update
     void Start()
     {
         win.gameObject.SetActive(false);
         restart2.gameObject.SetActive(false);
+        highscore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+        highscore.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
+
     
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -27,7 +30,18 @@ public class WinCondition : MonoBehaviour
         {
             win.gameObject.SetActive(true);
             restart2.gameObject.SetActive(true);
-            ScoreScript.scoreValue = ScoreScript.scoreValue * GameControl.health;
+            highscore.gameObject.SetActive(true);
+            ScoreScript.scoreValue = ScoreScript.scoreValue + (GameControl.health*100);
+
+            if (ScoreScript.scoreValue > PlayerPrefs.GetInt("HighScore", 0))
+            {
+                PlayerPrefs.SetInt("HighScore", ScoreScript.scoreValue);
+            }
+
+            highscore.text = "High Score: " + PlayerPrefs.GetInt("HighScore").ToString();
+
+            Debug.Log(PlayerPrefs.GetInt("HighScore", 0) + " vidas");
+
             Debug.Log(ScoreScript.scoreValue * GameControl.health + " score final");
             Debug.Log(GameControl.health+" vidas");
             
