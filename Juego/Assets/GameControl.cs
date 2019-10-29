@@ -8,7 +8,7 @@ public class GameControl : MonoBehaviour
 
     public GameObject heart1, heart2, heart3, gameOver, restartButton, lose1, lose2, lose3;
 
-    public static double health;
+    public static int health;
 
     public static GameControl instance;
 
@@ -71,6 +71,7 @@ public class GameControl : MonoBehaviour
                     lose2.gameObject.SetActive(true);
                 if (ScoreScript.scoreValue <= 1000 && ScoreScript.scoreValue > 500)
                     lose3.gameObject.SetActive(true);
+
                 Time.timeScale = 0f;
                 break;
         }
