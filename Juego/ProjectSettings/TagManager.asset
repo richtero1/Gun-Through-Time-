@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - firepoint
   - BulletPlayer
+  - Heart
   layers:
   - Default
   - TransparentFX
