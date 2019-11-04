@@ -45,10 +45,6 @@ public class PlayerMovement : MonoBehaviour
             mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
             direccion = mousePos - rb.position;
         }
-        
-        
-        
-        
     }
 
     void FixedUpdate()
@@ -68,9 +64,15 @@ public class PlayerMovement : MonoBehaviour
         if (col.gameObject.tag.Equals("Bullet"))
         {
             GameControl.health -= 1;
+            Handheld.Vibrate();
         }
-
-        
-
+        if (col.gameObject.tag.Equals("Heart"))
+        {
+            GameControl.health += 1;
+            Destroy(col.gameObject);
+            ScoreScript.scoreValue += 50;
+        }
     }
+
+    
 }

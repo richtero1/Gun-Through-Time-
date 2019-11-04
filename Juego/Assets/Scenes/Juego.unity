@@ -10047,6 +10047,7 @@ MonoBehaviour:
   lose2: {fileID: 618421144}
   lose3: {fileID: 24043523}
   highscore: {fileID: 1477874156}
+  pause: {fileID: 73750135}
   highscoreText: {fileID: 1477874158}
   player: {fileID: 468936585}
 --- !u!224 &1476942290
@@ -11044,6 +11045,21 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 468936592}
+    - target: {fileID: 2069997137764396116, guid: b78504ed24ba940c3a96f02cb3af59ad,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.567
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069997137764396116, guid: b78504ed24ba940c3a96f02cb3af59ad,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.342
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069997137764396116, guid: b78504ed24ba940c3a96f02cb3af59ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b78504ed24ba940c3a96f02cb3af59ad, type: 3}
 --- !u!4 &1799133857 stripped
