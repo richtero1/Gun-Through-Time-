@@ -20,8 +20,11 @@ public class EnemyShotgun : MonoBehaviour
     public int pellets = 1;
     public float spread;
 
+    private Renderer m_renderer;
+
     void Start()
     {
+        m_renderer = GetComponent<Renderer>();
         nextFire = Time.time;
         target = GameControl.instance.player.transform;
     }
@@ -31,7 +34,7 @@ public class EnemyShotgun : MonoBehaviour
     {
         float distance = Vector3.Distance(target.position, transform.position);
 
-        if (distance <= lookRadius)
+        if (distance <= lookRadius && m_renderer.isVisible)
         {
             CheckIfTimeToFire();
         }
