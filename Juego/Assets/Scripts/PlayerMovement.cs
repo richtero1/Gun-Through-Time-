@@ -25,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
     public bool controles;
 
-    Renderer rend;
     Color c;
 
     private void Start()
