@@ -14,10 +14,12 @@ public class Enemy : MonoBehaviour
 
     private Transform target;
 
+    private Renderer m_renderer;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        m_renderer = GetComponent<Renderer>();
         nextFire = Time.time;
         target = GameControl.instance.player.transform;
         //agent = GetComponent<NavMeshAgent>();
@@ -28,7 +30,7 @@ public class Enemy : MonoBehaviour
     {
         float distance = Vector3.Distance(target.position, transform.position);
 
-        if(distance <= lookRadius)
+        if(distance <= lookRadius && m_renderer.isVisible)
         {
             CheckIfTimeToFire();
         }
@@ -37,14 +39,14 @@ public class Enemy : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, lookRadius);
+        Gizmos.DrawWireSphere(transform.position, lookRadius/2);
     }
 
     void CheckIfTimeToFire()
     {
         if(Time.time > nextFire)
         {
-            Instantiate(bulletPrefab, FirePoint.position, Quaternion.identity);
+            fireBullet();
             nextFire = Time.time + fireRate;
         }
     }
@@ -57,5 +59,18 @@ public class Enemy : MonoBehaviour
             Destroy(enemigo);
         }
     }
+
+    private void fireBullet()
+    {
+
+        Vector3 moveDirection = (target.position - FirePoint.position).normalized;
+        float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg - 90;
+        Quaternion bRotation = Quaternion.Euler(new Vector3(0, 0, angle));
+
+        Instantiate(bulletPrefab, FirePoint.position, bRotation);
+    }
+
+    
+
 
 }

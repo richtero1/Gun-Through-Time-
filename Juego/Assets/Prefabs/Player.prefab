@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4021744342589173043}
   - component: {fileID: 4021744342589173039}
   - component: {fileID: 4021744342589173037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -145,7 +145,6 @@ MonoBehaviour:
   j2: {fileID: 0}
   fireRate: 0.5
   bulletForce: 20
-  controles: 0
 --- !u!61 &4021744342589173037
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -181,7 +180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4021744342780550082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: firePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

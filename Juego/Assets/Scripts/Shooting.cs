@@ -11,7 +11,7 @@ public class Shooting : MonoBehaviour
     public float fireRate= 0.5f;
     float nextFire;
     public float bulletForce = 10f;
-    public bool controles;
+    
 
     void Start()
     {
@@ -27,11 +27,11 @@ public class Shooting : MonoBehaviour
         //}
 
 
-        if (!j2.Horizontal.Equals(0)|| !j2.Vertical.Equals(0) && controles==true)
+        if (!j2.Horizontal.Equals(0)|| !j2.Vertical.Equals(0))
         {
             CheckIfTimeToFire();
             //Instantiate(bulletPrefab, firePoint.transform.position, firePoint.transform.rotation);
-        }else if (controles == false && Input.GetButtonDown("Fire1"))
+        }else if ( Input.GetButtonDown("Fire1"))
         {
             Shoot();
         }
@@ -39,9 +39,11 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePoint.right * bulletForce, ForceMode2D.Impulse) ;
+        Vector3 moveDirection = new Vector3(j2.Horizontal, j2.Vertical, 0).normalized;
+        float randomSpread = Random.Range(-5, 5);
+        float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg - 90;
+        Quaternion bRotation = Quaternion.Euler(new Vector3(0, 0, angle + randomSpread));
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, bRotation);
     }
 
     void CheckIfTimeToFire()

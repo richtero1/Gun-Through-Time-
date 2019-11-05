@@ -59,8 +59,13 @@ public class PlayerMovement : MonoBehaviour
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
 
-            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-            direccion = mousePos - rb.position;
+            if (j2.Horizontal != 0f || j2.Vertical != 0f)
+            {
+                direccion.x = j2.Horizontal;
+                direccion.y = j2.Vertical;
+            }
+            //mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+            //direccion = mousePos - rb.position;
         }
     }
 
@@ -81,7 +86,9 @@ public class PlayerMovement : MonoBehaviour
         if (col.gameObject.tag.Equals("Bullet"))
         {
             StartCoroutine("GetInvulnerable");
+            
             GameControl.health -= 1;
+            Debug.Log(GameControl.health);
             Handheld.Vibrate();
             sprite.color = Color.red;
             

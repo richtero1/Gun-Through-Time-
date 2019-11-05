@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9152763834579805955}
   - component: {fileID: 2021297919420931526}
   - component: {fileID: 114513204148385324}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -159,4 +159,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitEffect: {fileID: 5835995095307631688, guid: 6716ac01ff8d6463cb438fef3988f8df,
     type: 3}
-  Speed: 25
+  Speed: 11

@@ -10,16 +10,12 @@ public class Bullet : MonoBehaviour
 
     Rigidbody2D rb;
 
-    private Transform target;
-    Vector2 moveDirection;
 
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        
         rb = GetComponent<Rigidbody2D>();
-        moveDirection = (target.position - transform.position).normalized * Speed;
-        rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
-
+        rb.velocity = transform.up * Speed;
         Destroy(gameObject, 3f);
     }
 
@@ -28,6 +24,12 @@ public class Bullet : MonoBehaviour
         GameObject effect = Instantiate(hitEffect, transform.position, transform.rotation);
         
         Destroy(effect, 0.325f);
+        Destroy(gameObject);
+    }
+
+
+    private void OnBecameInvisible()
+    {
         Destroy(gameObject);
     }
 
