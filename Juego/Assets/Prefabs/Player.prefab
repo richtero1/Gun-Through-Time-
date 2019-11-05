@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4021744342589173040}
   - component: {fileID: 4021744342589173043}
   - component: {fileID: 4021744342589173039}
-  - component: {fileID: 4021744342589173036}
   - component: {fileID: 4021744342589173037}
   m_Layer: 0
   m_Name: Player
@@ -121,11 +120,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
   rb: {fileID: 4021744342589173040}
+  sprite: {fileID: 0}
   cam: {fileID: 0}
   j1: {fileID: 0}
   j2: {fileID: 0}
   spawnPoint: {fileID: 0}
   target: {fileID: 4021744342589173042}
+  controles: 0
 --- !u!114 &4021744342589173039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,26 +143,9 @@ MonoBehaviour:
   bulletPrefab: {fileID: 577585017761095575, guid: d6f65c228115944e3b384e7e3b07d8dd,
     type: 3}
   j2: {fileID: 0}
+  fireRate: 0.5
   bulletForce: 20
---- !u!95 &4021744342589173036
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4021744342589173042}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 07051423c536c4b6d8620bc85a5a9fb3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  controles: 0
 --- !u!61 &4021744342589173037
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -169,7 +153,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4021744342589173042}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0

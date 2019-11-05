@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
     public float moveSpeed = 5f;
-
+     
     public Rigidbody2D rb;
+    public SpriteRenderer sprite;
     public Camera cam;
 
     public Joystick j1;
@@ -16,18 +18,33 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
     Vector2 direccion;
-
+    float timer; 
     public Transform spawnPoint;
 
     public GameObject target;
 
     public bool controles;
 
+    Renderer rend;
+    Color c;
+
+    private void Start()
+    {
+        sprite = GetComponent<SpriteRenderer>();
+    }
+
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime;
+        if (timer > 1)
+        {
+            sprite.color = Color.white;
+            timer = 0;
+        }
+            
         //controles tactiles o Manuales para casos de prueba
-       if (controles == true)
+        if (controles == true)
         {
             movement.x = j1.Horizontal;
             movement.y = j1.Vertical;
@@ -63,9 +80,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Bullet"))
         {
+            StartCoroutine("GetInvulnerable");
             GameControl.health -= 1;
             Handheld.Vibrate();
+            sprite.color = Color.red;
+            
         }
+
         if (col.gameObject.tag.Equals("Heart"))
         {
             GameControl.health += 1;
@@ -73,6 +94,15 @@ public class PlayerMovement : MonoBehaviour
             ScoreScript.scoreValue += 50;
         }
     }
-
     
+    protected IEnumerator GetInvulnerable()
+    {
+        
+        Physics2D.IgnoreLayerCollision(8, 9, true);
+        Debug.Log("esperando dos seg");
+        yield return new WaitForSeconds(2f);
+        Debug.Log("pasaron dos seg");
+        Physics2D.IgnoreLayerCollision(8, 9, false);
+       
+    }
 }
