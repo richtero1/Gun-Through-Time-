@@ -9,6 +9,7 @@ TagManager:
   - firepoint
   - BulletPlayer
   - Heart
+  - turn
   layers:
   - Default
   - TransparentFX

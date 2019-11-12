@@ -17,10 +17,8 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         nextFire = Time.time;
         target = GameControl.instance.player.transform;
-        //agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -44,7 +42,7 @@ public class Enemy : MonoBehaviour
     {
         if(Time.time > nextFire)
         {
-            Instantiate(bulletPrefab, FirePoint.position, Quaternion.identity);
+            Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
             nextFire = Time.time + fireRate;
         }
     }

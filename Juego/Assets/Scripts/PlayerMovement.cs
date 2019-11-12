@@ -25,9 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
     public bool controles;
 
-    Renderer rend;
-    Color c;
-
     private void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
@@ -73,9 +70,7 @@ public class PlayerMovement : MonoBehaviour
         rb.rotation = angle;
     }
 
-
-
-    // Funcion para que el jugador sea matado por una bala y respawn
+    // Controlador de vidas
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag.Equals("Bullet"))
@@ -84,7 +79,6 @@ public class PlayerMovement : MonoBehaviour
             GameControl.health -= 1;
             Handheld.Vibrate();
             sprite.color = Color.red;
-            
         }
 
         if (col.gameObject.tag.Equals("Heart"))
@@ -97,7 +91,6 @@ public class PlayerMovement : MonoBehaviour
     
     protected IEnumerator GetInvulnerable()
     {
-        
         Physics2D.IgnoreLayerCollision(8, 9, true);
         Debug.Log("esperando dos seg");
         yield return new WaitForSeconds(2f);
