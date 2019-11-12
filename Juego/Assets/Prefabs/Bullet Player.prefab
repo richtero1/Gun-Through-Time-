@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitEffect: {fileID: 5835995095307631688, guid: 6716ac01ff8d6463cb438fef3988f8df,
     type: 3}
+  Speed: 10
 --- !u!1001 &767123391511055886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30,6 +31,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: BulletPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 577585017761095575, guid: d6f65c228115944e3b384e7e3b07d8dd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1048640907835941618, guid: d6f65c228115944e3b384e7e3b07d8dd,
         type: 3}
