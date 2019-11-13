@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 2069997137064582390}
   - component: {fileID: 2069997137064582391}
   - component: {fileID: 2069997137064582384}
-  - component: {fileID: 2069997137064582385}
+  - component: {fileID: 1740563632624698551}
+  - component: {fileID: 7031774862586967813}
   m_Layer: 11
   m_Name: Enemy
   m_TagString: Enemy
@@ -128,33 +129,6 @@ MonoBehaviour:
   lookRadius: 8
   fireRate: 0.7
   enemigo: {fileID: 2069997137064582386}
---- !u!114 &2069997137064582385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069997137064582386}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fce10591f4d1341a2ad3c1619c886149, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
-  target: {fileID: 0}
---- !u!114 &5460872143311678906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069997137064582386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eca010db15a643bd97d8d6e256b2c9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.5
 --- !u!50 &1740563632624698551
 Rigidbody2D:
   serializedVersion: 4
@@ -167,7 +141,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -176,6 +150,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &7031774862586967813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069997137064582386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bc91bb4ec9848529e9381cf94357aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  Rotatespeed: 5
+  target: {fileID: 0}
+  e: {fileID: 2069997137064582384}
 --- !u!1 &2069997137764396117
 GameObject:
   m_ObjectHideFlags: 0

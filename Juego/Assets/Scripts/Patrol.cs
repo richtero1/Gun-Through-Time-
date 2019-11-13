@@ -12,12 +12,14 @@ public class Patrol : MonoBehaviour
     {
         if (MoveRight)
         {
-            transform.Translate(2 * Time.deltaTime * speed, 0, 0);
+            transform.Translate(2 * Time.deltaTime * speed,0,0);
             transform.localScale = new Vector2(0.5f, 0.5f);
+
+
         }
         else
         {
-            transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
+            transform.Translate(-2 * Time.deltaTime * speed,0,0);
             transform.localScale = new Vector2(-0.5f, 0.5f);
         }
     }

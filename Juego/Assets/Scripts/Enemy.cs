@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform FirePoint;
 
-    public float lookRadius = 10f;
+    public float lookRadius = 8f;
 
     public float fireRate=1.5f; 
     float nextFire;
@@ -13,8 +13,8 @@ public class Enemy : MonoBehaviour
     public GameObject enemigo;
 
     private Transform target;
-
-    private Renderer m_renderer;
+ 
+    private static Renderer m_renderer;
 
     // Start is called before the first frame update
     void Start()
@@ -28,11 +28,13 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(target.position, transform.position);
-
-        if(distance <= lookRadius && m_renderer.isVisible)
+        FirePoint.transform.localRotation = Quaternion.Euler(0, 180, 0);
+        if (distance <= lookRadius && m_renderer.isVisible)
         {
+            
             CheckIfTimeToFire();
         }
+        
     }
 
     private void OnDrawGizmosSelected()
@@ -43,10 +45,13 @@ public class Enemy : MonoBehaviour
 
     void CheckIfTimeToFire()
     {
-        if(Time.time > nextFire)
+        
+        if (Time.time > nextFire)
         {
+            
             Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
             nextFire = Time.time + fireRate;
+            
         }
     }
 
