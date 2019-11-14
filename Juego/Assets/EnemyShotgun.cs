@@ -77,8 +77,11 @@ public class EnemyShotgun : MonoBehaviour
 
     private void fireBullet()
     {
+
+       
+
         Vector3 moveDirection = (target.position - FirePoint.position).normalized;
-        float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg - 90;
+        float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg ;
 
         float randomSpread = Random.Range(-spread, spread);
         Quaternion bRotation = Quaternion.Euler(new Vector3(0, 0, angle + randomSpread));

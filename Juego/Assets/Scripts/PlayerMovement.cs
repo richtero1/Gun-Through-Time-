@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
     // Controlador de vidas
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag.Equals("Bullet"))
+        if (col.gameObject.tag.Equals("EnemyBullet"))
         {
             StartCoroutine("GetInvulnerable");
             

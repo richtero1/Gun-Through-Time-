@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8516688226039795046}
   - component: {fileID: 8516688226039795047}
   - component: {fileID: 8516688226039795044}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Spot
   m_TagString: turn
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -39,7 +39,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8516688226039795065}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
