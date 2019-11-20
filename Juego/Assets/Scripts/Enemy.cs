@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
 
     private Transform target;
  
-    private static Renderer m_renderer;
+    private  Renderer m_renderer;
 
     // Start is called before the first frame update
     void Start()
@@ -27,23 +27,31 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, transform.right, lookRadius);
         float distance = Vector3.Distance(target.position, transform.position);
-        FirePoint.transform.localRotation = Quaternion.Euler(0, 180, 0);
-        if (distance <= lookRadius && m_renderer.isVisible)
+
+        if (distance < lookRadius)
         {
-            if (Time.time > nextFire)
+            CheckIfTimeToFire();
+        }
+        if (hitinfo.collider != null)
+        {
+            Debug.DrawLine(transform.position, hitinfo.point, Color.blue);
+            if (hitinfo.collider.CompareTag("Player"))
             {
-                Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
-                nextFire = Time.time + fireRate;
+                
             }
         }
+        else
+        {
+            Debug.DrawLine(transform.position, transform.position + transform.right * lookRadius, Color.yellow);
+        }
+       
+        
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, lookRadius/2);
-    }
+    
 
     void CheckIfTimeToFire()
     {
