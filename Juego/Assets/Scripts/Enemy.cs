@@ -56,13 +56,6 @@ public class Enemy : MonoBehaviour
     void CheckIfTimeToFire()
     {
         
-        if (Time.time > nextFire)
-        {
-            
-            Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
-            nextFire = Time.time + fireRate;
-            
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D col)
