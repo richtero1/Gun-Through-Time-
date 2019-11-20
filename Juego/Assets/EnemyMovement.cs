@@ -38,27 +38,11 @@ public class EnemyMovement : MonoBehaviour
         RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, transform.right, lookRadius);
         float distance = Vector3.Distance(target.position, transform.position);
 
-<<<<<<< HEAD
         if (distance<lookRadius)
         {
             Rotar(target.position, Rotatespeed);
         }
         else if(distance > lookRadius && speed!=0)
-=======
-        if (MoveRight && distance > lookRadius)
-        {
-            transform.Translate(2 * Time.deltaTime * speed, 0, 0);
-            transform.localScale = new Vector2(0.5f, 0.5f);
-        }
-        else if(!MoveRight && distance > lookRadius)
-        {
-            transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
-            transform.localScale = new Vector2(-0.5f, 0.5f);
-        }
-        
-
-        else if (distance <= lookRadius && m_renderer.isVisible)
->>>>>>> parent of 4c3160b... push para hacer pull
         {
 
             transform.position = Vector2.MoveTowards(transform.position,

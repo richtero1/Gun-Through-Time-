@@ -156,8 +156,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 577585017761095575, guid: d6f65c228115944e3b384e7e3b07d8dd,
     type: 3}
   FirePoint: {fileID: 3074804252694492079}
-  lookRadius: 9
-  fireRate: 0.8
+  lookRadius: 8
+  fireRate: 0.7
   enemigo: {fileID: 3074804253605085961}
 --- !u!50 &3329923905941773132
 Rigidbody2D:

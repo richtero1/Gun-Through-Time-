@@ -33,13 +33,10 @@ public class Enemy : MonoBehaviour
 
         if (distance < lookRadius)
         {
-<<<<<<< HEAD
             CheckIfTimeToFire();
         }
         if (hitinfo.collider != null)
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             Debug.DrawLine(transform.position, hitinfo.point, Color.blue);
             if (hitinfo.collider.CompareTag("Player"))
             {
@@ -51,21 +48,6 @@ public class Enemy : MonoBehaviour
             Debug.DrawLine(transform.position, transform.position + transform.right * lookRadius, Color.yellow);
         }
        
-=======
-            
-            CheckIfTimeToFire();
-        }
->>>>>>> parent of 4c3160b... push para hacer pull
-=======
-            
-            CheckIfTimeToFire();
-        }
->>>>>>> parent of 4c3160b... push para hacer pull
-=======
-            
-            CheckIfTimeToFire();
-        }
->>>>>>> parent of 4c3160b... push para hacer pull
         
     }
 
