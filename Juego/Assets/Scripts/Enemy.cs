@@ -33,6 +33,7 @@ public class Enemy : MonoBehaviour
 
         if (distance < lookRadius)
         {
+<<<<<<< HEAD
             CheckIfTimeToFire();
         }
         if (hitinfo.collider != null)
@@ -48,6 +49,11 @@ public class Enemy : MonoBehaviour
             Debug.DrawLine(transform.position, transform.position + transform.right * lookRadius, Color.yellow);
         }
        
+=======
+            
+            CheckIfTimeToFire();
+        }
+>>>>>>> parent of 4c3160b... push para hacer pull
         
     }
 
@@ -56,6 +62,13 @@ public class Enemy : MonoBehaviour
     void CheckIfTimeToFire()
     {
         
+        if (Time.time > nextFire)
+        {
+            
+            Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
+            nextFire = Time.time + fireRate;
+            
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D col)
