@@ -1366,8 +1366,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 5
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &297334366
@@ -1401,6 +1404,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
+<<<<<<< HEAD
+>>>>>>> parent of 4c3160b... push para hacer pull
+=======
 >>>>>>> parent of 4c3160b... push para hacer pull
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &224345967 stripped
@@ -1417,11 +1423,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1409639601}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 8516688226039795065, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
         type: 3}
       propertyPath: m_Name
       value: Spot (18)
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
     - target: {fileID: 0}
       propertyPath: startWaitTime
       value: 2
@@ -2714,12 +2723,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spot (3)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 8516688226039795065, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
         type: 3}
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8516688226039795046, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
+=======
+    - target: {fileID: 2069997137064582389, guid: b78504ed24ba940c3a96f02cb3af59ad,
+>>>>>>> parent of 4c3160b... push para hacer pull
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.76
@@ -4522,8 +4535,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 1409639601}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 8516688226039795065, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
     - target: {fileID: 0}
       propertyPath: target
       value: 
@@ -4629,7 +4645,11 @@ Transform:
   - {fileID: 1260491744}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 8
+=======
+  m_RootOrder: 12
+>>>>>>> parent of 4c3160b... push para hacer pull
 =======
   m_RootOrder: 12
 >>>>>>> parent of 4c3160b... push para hacer pull
@@ -4852,7 +4872,11 @@ Transform:
   - {fileID: 1568149505}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+  m_RootOrder: 9
+>>>>>>> parent of 4c3160b... push para hacer pull
 =======
   m_RootOrder: 9
 >>>>>>> parent of 4c3160b... push para hacer pull
@@ -4869,6 +4893,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spot (1)
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 8516688226039795065, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
         type: 3}
       propertyPath: m_Layer
@@ -4951,6 +4976,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8516688226039795046, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
     - target: {fileID: 2069997137064582389, guid: b78504ed24ba940c3a96f02cb3af59ad,
 >>>>>>> parent of 4c3160b... push para hacer pull
         type: 3}
@@ -11388,7 +11415,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 3
+=======
+  m_RootOrder: 5
+>>>>>>> parent of 4c3160b... push para hacer pull
 =======
   m_RootOrder: 5
 >>>>>>> parent of 4c3160b... push para hacer pull
@@ -11823,7 +11854,11 @@ RectTransform:
   - {fileID: 2051893582}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 4
+>>>>>>> parent of 4c3160b... push para hacer pull
 =======
   m_RootOrder: 4
 >>>>>>> parent of 4c3160b... push para hacer pull
@@ -12047,7 +12082,11 @@ Transform:
   - {fileID: 441539414}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 13
+>>>>>>> parent of 4c3160b... push para hacer pull
 =======
   m_RootOrder: 13
 >>>>>>> parent of 4c3160b... push para hacer pull
@@ -12391,7 +12430,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 6
+>>>>>>> parent of 4c3160b... push para hacer pull
 =======
   m_RootOrder: 6
 >>>>>>> parent of 4c3160b... push para hacer pull
@@ -12893,6 +12936,9 @@ Transform:
 =======
   m_Father: {fileID: 0}
   m_RootOrder: 8
+<<<<<<< HEAD
+>>>>>>> parent of 4c3160b... push para hacer pull
+=======
 >>>>>>> parent of 4c3160b... push para hacer pull
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1578689807
@@ -12982,8 +13028,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 1409639601}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 8516688226039795065, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
     - target: {fileID: 0}
       propertyPath: target
       value: 
@@ -13958,10 +14007,16 @@ PrefabInstance:
     - target: {fileID: 3074804253605085961, guid: eecd9e99e269b1d46921609ee18705cb,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Enemy (8)
       objectReference: {fileID: 0}
 <<<<<<< HEAD
     - target: {fileID: 3074804253605085966, guid: eecd9e99e269b1d46921609ee18705cb,
+=======
+      value: Enemy (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069997137064582389, guid: b78504ed24ba940c3a96f02cb3af59ad,
+>>>>>>> parent of 4c3160b... push para hacer pull
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.15
@@ -14173,7 +14228,39 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2089023841}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &1814919869
+=======
+  m_GameObject: {fileID: 1711414637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.73306, y: 31.114573, z: 181.83594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 38349898}
+  - {fileID: 53055078}
+  - {fileID: 1652312398}
+  - {fileID: 2140645485}
+  - {fileID: 13798113}
+  - {fileID: 659714532}
+  - {fileID: 1499796959}
+  - {fileID: 1637570145}
+  - {fileID: 20392347}
+  - {fileID: 957475558}
+  - {fileID: 818995742}
+  - {fileID: 1090861522}
+  - {fileID: 1562734568}
+  - {fileID: 1189193594}
+  - {fileID: 1040599848}
+  - {fileID: 2055312073}
+  - {fileID: 1481357776}
+  - {fileID: 785469931}
+  - {fileID: 17241122}
+  - {fileID: 1580816167}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1715106627
+>>>>>>> parent of 4c3160b... push para hacer pull
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -14183,9 +14270,15 @@ PrefabInstance:
     - target: {fileID: 3074804253605085961, guid: eecd9e99e269b1d46921609ee18705cb,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Enemy (12)
       objectReference: {fileID: 0}
     - target: {fileID: 3074804253605085966, guid: eecd9e99e269b1d46921609ee18705cb,
+=======
+      value: Enemy (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069997137064582389, guid: b78504ed24ba940c3a96f02cb3af59ad,
+>>>>>>> parent of 4c3160b... push para hacer pull
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.65
@@ -14285,6 +14378,7 @@ PrefabInstance:
       value: Spot (19)
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 8516688226039795065, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
         type: 3}
       propertyPath: m_Layer
@@ -14292,6 +14386,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8516688226039795046, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
     - target: {fileID: 2069997137064582389, guid: b78504ed24ba940c3a96f02cb3af59ad,
 >>>>>>> parent of 4c3160b... push para hacer pull
         type: 3}
@@ -34986,8 +35082,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 1705548305}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 3074804253605085961, guid: eecd9e99e269b1d46921609ee18705cb,
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
     - target: {fileID: 0}
       propertyPath: target
       value: 
@@ -35098,6 +35197,7 @@ PrefabInstance:
       value: Spot (9)
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 8516688226039795065, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
         type: 3}
       propertyPath: m_Layer
@@ -35105,6 +35205,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8516688226039795046, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
     - target: {fileID: 2069997137064582389, guid: b78504ed24ba940c3a96f02cb3af59ad,
 >>>>>>> parent of 4c3160b... push para hacer pull
         type: 3}
@@ -35340,8 +35442,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 1409639601}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 8516688226039795065, guid: 16e48d43f16404fa0adb1eb21bdd4f72,
 =======
+=======
+>>>>>>> parent of 4c3160b... push para hacer pull
     - target: {fileID: 0}
       propertyPath: target
       value: 
@@ -35735,7 +35840,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 1
+=======
+      value: 3
+>>>>>>> parent of 4c3160b... push para hacer pull
 =======
       value: 3
 >>>>>>> parent of 4c3160b... push para hacer pull
