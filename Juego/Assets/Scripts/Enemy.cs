@@ -31,10 +31,12 @@ public class Enemy : MonoBehaviour
         FirePoint.transform.localRotation = Quaternion.Euler(0, 180, 0);
         if (distance <= lookRadius && m_renderer.isVisible)
         {
-            
-            CheckIfTimeToFire();
+            if (Time.time > nextFire)
+            {
+                Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
+                nextFire = Time.time + fireRate;
+            }
         }
-        
     }
 
     private void OnDrawGizmosSelected()
@@ -46,13 +48,6 @@ public class Enemy : MonoBehaviour
     void CheckIfTimeToFire()
     {
         
-        if (Time.time > nextFire)
-        {
-            
-            Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
-            nextFire = Time.time + fireRate;
-            
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D col)

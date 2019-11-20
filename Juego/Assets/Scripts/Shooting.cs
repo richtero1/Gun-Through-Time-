@@ -21,12 +21,7 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(GameControl.health == 2)
-        //{
-        //    fireRate= 0.01f;
-        //}
-
-
+        
         if (!j2.Horizontal.Equals(0)|| !j2.Vertical.Equals(0))
         {
             CheckIfTimeToFire();
@@ -43,7 +38,7 @@ public class Shooting : MonoBehaviour
         float randomSpread = Random.Range(-5, 5);
         float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg - 90;
         Quaternion bRotation = Quaternion.Euler(new Vector3(0, 0, angle + randomSpread));
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, bRotation);
+        Instantiate(bulletPrefab, firePoint.position, bRotation);
     }
 
     void CheckIfTimeToFire()

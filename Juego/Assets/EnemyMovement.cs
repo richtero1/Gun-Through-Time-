@@ -35,7 +35,6 @@ public class EnemyMovement : MonoBehaviour
             transform.Translate(-2 * Time.deltaTime * speed, 0, 0);
             transform.localScale = new Vector2(-0.5f, 0.5f);
         }
-        
 
         else if (distance <= lookRadius && m_renderer.isVisible)
         {
