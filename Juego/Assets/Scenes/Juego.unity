@@ -1517,20 +1517,6 @@ Rigidbody2D:
     type: 3}
   m_PrefabInstance: {fileID: 2089023841}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &468936591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468936585}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dca73907ae134ff7b2af90f21520cf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thrust: 5
-  knockTime: 0
 --- !u!4 &468936592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4021744342589173038, guid: f08f310d076c44b498ac4464edd2e905,
@@ -2804,7 +2790,7 @@ PrefabInstance:
     - target: {fileID: 9129362958732748173, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}
       propertyPath: cambioPlayer.x
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9129362958732748173, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}
@@ -3351,7 +3337,7 @@ PrefabInstance:
     - target: {fileID: 9129362958732748173, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}
       propertyPath: cambioPlayer.x
-      value: -1.5
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 9129362958732748173, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}
@@ -3581,7 +3567,7 @@ PrefabInstance:
     - target: {fileID: 9129362958732748173, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}
       propertyPath: cambioPlayer.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7096473532d99f040a064b7f6e0a37e9, type: 3}
@@ -11935,7 +11921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   win: {fileID: 839275492}
   restart2: {fileID: 534290241}
-  puntText: {fileID: 0}
+  pause: {fileID: 73750135}
   highscore: {fileID: 1477874158}
 --- !u!1001 &1567711029
 PrefabInstance:
@@ -12147,7 +12133,7 @@ PrefabInstance:
     - target: {fileID: 9129362958732748173, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}
       propertyPath: cambioPlayer.y
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7096473532d99f040a064b7f6e0a37e9, type: 3}
@@ -34212,7 +34198,7 @@ PrefabInstance:
     - target: {fileID: 9129362958732748173, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}
       propertyPath: cambioPlayer.y
-      value: -1.5
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7096473532d99f040a064b7f6e0a37e9, type: 3}
@@ -34291,7 +34277,7 @@ PrefabInstance:
     - target: {fileID: 9129362958732748173, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}
       propertyPath: cambioPlayer.y
-      value: -1.5
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 9129362958732748162, guid: 7096473532d99f040a064b7f6e0a37e9,
         type: 3}

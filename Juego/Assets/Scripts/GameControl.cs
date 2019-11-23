@@ -37,6 +37,8 @@ public class GameControl : MonoBehaviour
         lose3.gameObject.SetActive(false);
         highscore.gameObject.SetActive(false);
         pause.gameObject.SetActive(true);
+
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
 
     // Update is called once per frame

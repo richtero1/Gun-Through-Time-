@@ -6,9 +6,6 @@ public class ScoreScript : MonoBehaviour
     public static int scoreValue = 0;
     public Text scoreText;
 
-    //public Text puntText;
-    //double punt = scoreValue * GameControl.health;
-
     // Start is called before the first frame update
     void Start()
     {

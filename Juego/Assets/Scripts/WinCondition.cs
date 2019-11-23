@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class WinCondition : MonoBehaviour
 {
 
-    public GameObject win, restart2;
+    public GameObject win, restart2, pause;
     
-    public Text puntText;
+    
     public Text highscore;
 
     // Start is called before the first frame update
@@ -18,6 +18,7 @@ public class WinCondition : MonoBehaviour
         restart2.gameObject.SetActive(false);
         highscore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
         highscore.gameObject.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -31,6 +32,7 @@ public class WinCondition : MonoBehaviour
             win.gameObject.SetActive(true);
             restart2.gameObject.SetActive(true);
             highscore.gameObject.SetActive(true);
+            pause.gameObject.SetActive(false);
             ScoreScript.scoreValue = ScoreScript.scoreValue + (GameControl.health*100);
 
             if (ScoreScript.scoreValue > PlayerPrefs.GetInt("HighScore", 0))
