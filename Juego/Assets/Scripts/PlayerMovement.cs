@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
-        mov = false;
+        
     }
 
     // Update is called once per frame
