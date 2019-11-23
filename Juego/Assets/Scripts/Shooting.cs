@@ -43,7 +43,7 @@ public class Shooting : MonoBehaviour
         float randomSpread = Random.Range(-5, 5);
         float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg - 90;
         Quaternion bRotation = Quaternion.Euler(new Vector3(0, 0, angle + randomSpread));
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, bRotation);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, bRotation) as GameObject;
     }
 
     void CheckIfTimeToFire()

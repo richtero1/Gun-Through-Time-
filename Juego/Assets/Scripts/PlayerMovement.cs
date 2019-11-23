@@ -25,9 +25,11 @@ public class PlayerMovement : MonoBehaviour
 
     public bool controles;
 
+
     private void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+        mov = false;
     }
 
     // Update is called once per frame
@@ -45,10 +47,16 @@ public class PlayerMovement : MonoBehaviour
         {
             movement.x = j1.Horizontal;
             movement.y = j1.Vertical;
-            if (j2.Horizontal != 0f || j2.Vertical != 0f)
+
+            if (j2.Horizontal != 0f || j2.Vertical != 0f )
             {
                 direccion.x = j2.Horizontal;
                 direccion.y = j2.Vertical;
+            }
+            else if ((j2.Horizontal==0 && j2.Vertical == 0) && (j1.Horizontal!=0f && j1.Horizontal!=0f) )
+            {
+                direccion.x = j1.Horizontal;
+                direccion.y = j1.Vertical;
             }
         } 
         else 
@@ -60,6 +68,11 @@ public class PlayerMovement : MonoBehaviour
             {
                 direccion.x = j2.Horizontal;
                 direccion.y = j2.Vertical;
+            }
+            else if ((j2.Horizontal == 0 && j2.Vertical == 0) && (Input.GetAxisRaw("Horizontal") != 0f && Input.GetAxisRaw("Vertical") != 0f))
+            {
+                direccion.x = Input.GetAxisRaw("Horizontal"); ;
+                direccion.y = Input.GetAxisRaw("Vertical");
             }
             //mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
             //direccion = mousePos - rb.position;

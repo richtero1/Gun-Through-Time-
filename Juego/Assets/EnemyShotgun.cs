@@ -85,7 +85,7 @@ public class EnemyShotgun : MonoBehaviour
 
         float randomSpread = Random.Range(-spread, spread);
         Quaternion bRotation = Quaternion.Euler(new Vector3(0, 0, angle + randomSpread));
-         Instantiate(bulletPrefab, FirePoint.position, bRotation);
+        Instantiate(bulletPrefab, FirePoint.position, bRotation);
         
 
     }
