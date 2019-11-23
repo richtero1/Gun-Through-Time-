@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
                 direccion.x = j2.Horizontal;
                 direccion.y = j2.Vertical;
             }
-            else if ((j2.Horizontal == 0 && j2.Vertical == 0) && (Input.GetAxisRaw("Horizontal") != 0f && Input.GetAxisRaw("Vertical") != 0f))
+            else if ((j2.Horizontal == 0 && j2.Vertical == 0) && (Input.GetAxisRaw("Horizontal") != 0f || Input.GetAxisRaw("Vertical") != 0f))
             {
                 direccion.x = Input.GetAxisRaw("Horizontal"); ;
                 direccion.y = Input.GetAxisRaw("Vertical");
